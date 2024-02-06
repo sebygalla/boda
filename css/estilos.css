@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+	background: #EFEFEF;
+	color: #363639;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* ? ----- PORTADA ----- */
+.portada {
+	width: 100%;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+	min-height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	transition: .5s ease-out all;
+
+
+}
+
+.portada h1, p {
+	color: #fff;
+}
+
+.portada.oculta {
+	transform: translateY(100%);
+}
+
+
+
+.portada .header {
+	text-transform: uppercase;
+}
+
+.portada .header .logotipo {
+	font-size: 50px;
+	font-weight: 700;
+	margin-top: 80px;
+	
+}
+
+.portada .mensaje {
+	font-size: 30px;
+	font-weight: 600;
+	
+}
+
+.img-fluid {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 700px;
+		
+}
+
+
+/* ? ----- HEADER ----- */
+.header {
+	display: block;
+	align-items: center;
+	
+}
+
+
+
+
+/* ? ----- MAIN ----- */
+main {
+	max-width: 1000px;
+	margin: auto;
+	width: 90%;
+	padding: 50px 0;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+}
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+
+#cuenta {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	z-index: 0;
+}
+
+.simply-section {
+	background: #ffffff67;
+	width: 150px;
+	height: 150px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: #000;
+
+	background: rgba(255, 255, 255, 0.16);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.simply-amount {
+	display: block;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* ? ---------------------------- */
+
+
+
+/* ? ----- ASISTENCIA ----- */
+.asistencia{
+	margin-bottom: 20px;
+}
+.asistencia a {
+	padding: 10px;
+	display: inline-block;
+	min-width: 120px;
+	border-radius: 5px;
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+	transition: .3s ease all;
+
+}
+.asistencia a:hover {
+	background: red;
+	color: white;
+	cursor: pointer;
+	transition: .3s ease all;
+
+}
+
+
+
+/* ? ----- FECHA ----- */
+
+.fecha {
+	margin-bottom: 10px;
+}
+
+.fecha a, i {
+	color: #fff;
+	margin: 10px;
+	text-decoration: none;
+}
+
+
+
+
+
+/* ? ----- MEDIAQUERYS ----- */
+@media (max-width: 414px) {
+	.portada {
+	}
+
+	.img-fluid {
+		width: 800px;
+		top: 20%;
+		left: -70%;
+		z-index: -10;
+	}
+  }
