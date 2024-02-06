@@ -65,7 +65,8 @@ body {
 	position: absolute;
 	top: 20px;
 	left: 0;
-	width: 700px;
+	width: 1000px;
+	opacity: 0.1;
 		
 }
 
@@ -169,6 +170,7 @@ main {
 
 .fecha {
 	margin-bottom: 10px;
+	flex-wrap: wrap;
 }
 
 .fecha a, i {
@@ -182,15 +184,39 @@ main {
 
 
 /* ? ----- MEDIAQUERYS ----- */
-@media (max-width: 414px) {
+
+
+  @media (max-width: 921px) {
 	.portada {
+		/* background: rgb(2,0,36);
+  		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,29,136,1) 35%, rgba(0,212,255,1) 100%); */
 	}
 
 	.img-fluid {
-		width: 800px;
-		top: 20%;
+		width: 1500px;
+		top: -15%;
 		left: -70%;
-		z-index: -10;
-		
+
 	}
+
+	@media (max-width: 590px) {
+		.fecha a {
+			display: block;
+			flex-direction: column;
+		}
+		.header {
+			padding: 50px;
+		}
+
+		.img-fluid {
+			width: 800px;
+			top: 0%;
+			left: -60%;
+	
+		}
+
+
+
+	}
+
   }
