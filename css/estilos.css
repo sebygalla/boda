@@ -66,7 +66,8 @@ body {
 	top: 20px;
 	left: 0;
 	width: 1000px;
-	opacity: 0.1;
+	opacity: 0.2;
+	z-index: -1;
 		
 }
 
@@ -142,41 +143,42 @@ main {
 /* ? ----- ASISTENCIA ----- */
 .asistencia{
 	margin-bottom: 20px;
+	cursor: pointer;
 }
-.asistencia a {
+.btn-asistencia  {
 	padding: 10px;
 	display: inline-block;
 	min-width: 120px;
-	border-radius: 5px;
+	border-radius: 20px;
 	background: #fff;
 	color: #000;
 	text-decoration: none;
 	font-size: 16px;
 	margin: 10px;
-	transition: .3s ease all;
-
+	
 }
-.asistencia a:hover {
-	background: red;
-	color: white;
-	cursor: pointer;
+.btn-asistencia:hover {
+	background: yellow;
+	color: #000;
 	transition: .3s ease all;
-
 }
 
 
 
-/* ? ----- FECHA ----- */
 
-.fecha {
-	margin-bottom: 10px;
+/* ? ----- DATOS ----- */
+
+.datos {
 	flex-wrap: wrap;
+	
 }
 
-.fecha a, i {
+.datos a, i {
 	color: #fff;
 	margin: 10px;
 	text-decoration: none;
+	cursor: pointer;
+
 }
 
 
@@ -188,8 +190,8 @@ main {
 
   @media (max-width: 921px) {
 	.portada {
-		/* background: rgb(2,0,36);
-  		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,29,136,1) 35%, rgba(0,212,255,1) 100%); */
+		background: rgb(2,0,36);
+  		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,29,136,1) 35%, rgba(0,212,255,1) 100%);
 	}
 
 	.img-fluid {
@@ -200,7 +202,7 @@ main {
 	}
 
 	@media (max-width: 590px) {
-		.fecha a {
+		.datos a {
 			display: block;
 			flex-direction: column;
 		}
