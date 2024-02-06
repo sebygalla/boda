@@ -58,14 +58,15 @@ body {
 .portada .mensaje {
 	font-size: 30px;
 	font-weight: 600;
+	text-transform: lowercase;
 	
 }
 
 .img-fluid {
 	position: absolute;
-	top: 20px;
-	left: 0;
-	width: 1000px;
+	top: -20%;
+	left: -30%;
+	width: 1200px;
 	opacity: 0.2;
 	z-index: -1;
 		
@@ -205,19 +206,32 @@ main {
 		.datos a {
 			display: block;
 			flex-direction: column;
+	
 		}
 		.portada .header .logotipo {
+			font-size: 40px;
+			letter-spacing: 5px;
+			line-height: 35px;
+			text-align: center;
 			margin-top:0 ;
 		}
+
+		.portada .header .mensaje {
+			font-size: 20px;
+			margin-top:0 ;
+		}
+
 		.header {
-			padding: 50px;
+			padding: 20px;
 		}
 
 		.img-fluid {
-			width: 800px;
-			top: 0%;
-			left: -60%;
-	
+			width: 1200px;
+			top: 10%;
+			left: -120%;
+		}
+		#cuenta{
+			gap: 5px;
 		}
 
 
