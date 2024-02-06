@@ -204,6 +204,9 @@ main {
 			display: block;
 			flex-direction: column;
 		}
+		.portada .header .logotipo {
+			margin-top:0 ;
+		}
 		.header {
 			padding: 50px;
 		}
