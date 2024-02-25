@@ -5,10 +5,10 @@
 }
 
 body {
-	
+
 	background: #EFEFEF;
 	color: #363639;
-    font-family: 'Work Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -16,8 +16,11 @@ body {
 /* ? ----- PORTADA ----- */
 .portada {
 	width: 100%;
-	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+	background-image: url("/img/martina2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center 20%;
 
 	min-height: 100%;
 	position: fixed;
@@ -34,7 +37,19 @@ body {
 
 }
 
-.portada h1, p {
+.portada::before {
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(231, 132, 181, 0.8);
+	position: fixed;
+	z-index: -1;
+}
+
+.portada h1,
+p {
 	color: #fff;
 }
 
@@ -52,32 +67,28 @@ body {
 	font-size: 50px;
 	font-weight: 700;
 	margin-top: 80px;
-	
+
 }
 
 .portada .mensaje {
 	font-size: 30px;
 	font-weight: 600;
 	text-transform: lowercase;
-	
+
 }
 
-.img-fluid {
-	position: absolute;
-	top: -20%;
-	left: -30%;
-	width: 1200px;
-	opacity: 0.2;
-	z-index: -1;
-		
-}
+
 
 
 /* ? ----- HEADER ----- */
 .header {
 	display: block;
 	align-items: center;
-	
+
+
+
+
+
 }
 
 
@@ -92,6 +103,8 @@ main {
 	font-size: 18px;
 	line-height: 28px;
 	text-align: left;
+
+
 }
 
 
@@ -142,11 +155,12 @@ main {
 
 
 /* ? ----- ASISTENCIA ----- */
-.asistencia{
+.asistencia {
 	margin-bottom: 20px;
 	cursor: pointer;
 }
-.btn-asistencia  {
+
+.btn-asistencia {
 	padding: 10px;
 	display: inline-block;
 	min-width: 120px;
@@ -156,8 +170,9 @@ main {
 	text-decoration: none;
 	font-size: 16px;
 	margin: 10px;
-	
+
 }
+
 .btn-asistencia:hover {
 	background: yellow;
 	color: #000;
@@ -171,10 +186,11 @@ main {
 
 .datos {
 	flex-wrap: wrap;
-	
+
 }
 
-.datos a, i {
+.datos a,
+i {
 	color: #fff;
 	margin: 10px;
 	text-decoration: none;
@@ -189,53 +205,47 @@ main {
 /* ? ----- MEDIAQUERYS ----- */
 
 
-  @media (max-width: 921px) {
-	.portada {
-		background: rgb(2,0,36);
-  		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,29,136,1) 35%, rgba(0,212,255,1) 100%);
-	}
+@media (max-width: 921px) {}
 
-	.img-fluid {
-		width: 1500px;
-		top: -15%;
-		left: -70%;
 
-	}
 
-	@media (max-width: 590px) {
-		.datos a {
+@media (max-width: 590px) {
+
+	.datos {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 20px;
+
+		a {
 			display: block;
-			flex-direction: column;
-	
-		}
-		.portada .header .logotipo {
-			font-size: 40px;
-			letter-spacing: 5px;
-			line-height: 35px;
-			text-align: center;
-			margin-top: 50px ;
-		}
-
-		.portada .header .mensaje {
-			font-size: 20px;
-			margin-top:0 ;
-		}
-
-		.header {
-			padding: 20px;
-		}
-
-		.img-fluid {
-			width: 1200px;
-			top: 10%;
-			left: -120%;
-		}
-		#cuenta{
-			gap: 5px;
-		}
 
 
-
+		}
 	}
 
-  }
+	.portada .header .logotipo {
+		font-size: 30px;
+		letter-spacing: 5px;
+		line-height: 35px;
+		text-align: center;
+		margin: 10px;
+	}
+
+	.portada .header .mensaje {
+		font-size: 15px;
+		margin-top: 0;
+	}
+
+	.header {
+		padding: 20px;
+	}
+
+
+	#cuenta {
+		gap: 15px;
+	}
+
+
+
+}
