@@ -4,10 +4,14 @@
 	box-sizing: border-box;
 }
 
+@font-face {
+	font-family: 'silent';
+	src: url(/tipografia/Silent\ Landfield.ttf);
+}
+
 body {
 
 	background: #EFEFEF;
-	color: #363639;
 	font-family: 'Work Sans', sans-serif;
 }
 
@@ -48,10 +52,6 @@ body {
 	z-index: -1;
 }
 
-.portada h1,
-p {
-	color: #fff;
-}
 
 .portada.oculta {
 	transform: translateY(100%);
@@ -64,16 +64,20 @@ p {
 }
 
 .portada .header .logotipo {
-	font-size: 50px;
-	font-weight: 700;
 	margin-top: 80px;
+	font-size: 100px;
+	font-family: 'silent';
+	color: #fff;
+	letter-spacing: 15px;
+	
 
 }
 
 .portada .mensaje {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 600;
-	text-transform: lowercase;
+	/* text-transform: lowercase; */
+	color: #fff;
 
 }
 
@@ -121,8 +125,8 @@ main {
 
 .simply-section {
 	background: #ffffff67;
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	margin: 0 20px;
 	border-radius: 5px;
 	display: flex;
@@ -154,74 +158,44 @@ main {
 
 
 
+
+
 /* ? ----- ASISTENCIA ----- */
 .asistencia {
 	margin-bottom: 20px;
 	cursor: pointer;
 }
 
-/* .btn-asistencia {
-	padding: 10px;
-	display: inline-block;
-	min-width: 120px;
-	border-radius: 20px;
-	background: #fff;
-	color: #000;
-	text-decoration: none;
-	font-size: 16px;
-	margin: 10px;
-
-}
-
-.btn-asistencia:hover {
-	background: yellow;
-	color: #000;
-	transition: .3s ease all;
-} */
-
 .btn-asistencia {
 	min-width: 130px;
-	height: 40px;
-	color: #000;
-	padding: 10px 10px;
+	color: #fff;
+	padding: 10px;
+
 	font-weight: bold;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	position: relative;
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	outline: none;
-	overflow: hidden;
 	border-radius: 5px;
 	border: none;
-	background-color: #fff;
+	box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+	background: #ff0a78;
+
 	text-decoration: none;
-}
+	gap: 5px;
+  }
+  .btn-asistencia:hover {
+	background-color: #ff6392;
+  }
+  .btn-asistencia:active {
+	top: 2px;
+  }
 
 
 
-	.btn-asistencia:hover {
-		border-radius: 5px;
-		padding-right: 24px;
-		padding-left: 8px;
-	}
-
-
-.btn-asistencia:hover:after {
-	opacity: 1;
-	right: 10px;
-}
-
-
-.btn-asistencia:after {
-	content: "\00BB";
-	position: absolute;
-	opacity: 0;
-	font-size: 20px;
-	line-height: 40px;
-	top: 0;
-	right: -20px;
-	transition: 0.4s;
-}
 
 
 
@@ -237,6 +211,8 @@ main {
 
 }
 
+
+
 .datos a,
 i {
 	color: #fff;
@@ -245,6 +221,8 @@ i {
 	cursor: pointer;
 
 }
+
+
 
 
 
