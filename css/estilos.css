@@ -7,105 +7,56 @@
 @font-face {
 	font-family: 'silent';
 	src: url(/tipografia/Silent\ Landfield.ttf);
+
 }
 
 body {
 
-	background: #EFEFEF;
 	font-family: 'Work Sans', sans-serif;
 }
 
 
 
 /* ? ----- PORTADA ----- */
+section {
+	background: rosybrown;
+	;
+}
+
 .portada {
 	width: 100%;
-
-	background-image: url("/img/martina2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center 20%;
-
-	min-height: 100%;
-	position: fixed;
-	top: 0;
-	right: 0;
-
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+}
+
+.texto {
+	width: 50%;
+	height: auto;
+	color: white;
 	text-align: center;
-	transition: .5s ease-out all;
 
+	h1 {
+		font-family: silent;
+		font-size: 100px;
+		margin-top: 10%;
+	}
 
-}
-
-.portada::before {
-	content: "";
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(231, 132, 181, 0.8);
-	position: fixed;
-	z-index: -1;
-}
-
-
-.portada.oculta {
-	transform: translateY(100%);
-}
-
-
-
-.portada .header {
-	text-transform: uppercase;
-}
-
-.portada .header .logotipo {
-	margin-top: 80px;
-	font-size: 100px;
-	font-family: 'silent';
-	color: #fff;
-	letter-spacing: 15px;
-	
+	p {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
 
 }
 
-.portada .mensaje {
-	font-size: 25px;
-	font-weight: 600;
-	/* text-transform: lowercase; */
-	color: #fff;
+.img {
 
+	img {
+		width: 400px;
+		margin: 30px auto 120px;
+	}
 }
-
-
-
-
-/* ? ----- HEADER ----- */
-.header {
-	display: block;
-	align-items: center;
-}
-
-
-
-
-/* ? ----- MAIN ----- */
-main {
-	max-width: 1000px;
-	margin: auto;
-	width: 90%;
-	padding: 50px 0;
-	font-size: 18px;
-	line-height: 28px;
-	text-align: left;
-
-
-}
-
 
 
 /* ? ----- Cuenta Regresiva ----- */
@@ -116,6 +67,8 @@ main {
 	justify-content: center;
 	gap: 10px;
 	z-index: 0;
+
+	margin: 10%;
 }
 
 .simply-section {
@@ -156,40 +109,6 @@ main {
 
 
 /* ? ----- ASISTENCIA ----- */
-.asistencia {
-	margin-bottom: 20px;
-	cursor: pointer;
-}
-
-.btn-asistencia {
-	min-width: 130px;
-	color: #fff;
-	padding: 10px;
-
-	font-weight: bold;
-	cursor: pointer;
-	transition: all 0.3s ease;
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	outline: none;
-	border-radius: 5px;
-	border: none;
-	box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
-	background: #ff0a78;
-
-	text-decoration: none;
-	gap: 5px;
-  }
-  .btn-asistencia:hover {
-	background-color: #ff6392;
-  }
-  .btn-asistencia:active {
-	top: 2px;
-  }
-
-
 
 
 
@@ -201,23 +120,6 @@ main {
 
 /* ? ----- DATOS ----- */
 
-.datos {
-	flex-wrap: wrap;
-
-}
-
-
-
-.datos a,
-i {
-	color: #fff;
-	margin: 10px;
-	text-decoration: none;
-	cursor: pointer;
-
-}
-
-
 
 
 
@@ -225,49 +127,3 @@ i {
 
 
 /* ? ----- MEDIAQUERYS ----- */
-
-
-@media (max-width: 921px) {}
-
-
-
-@media (max-width: 590px) {
-
-	.datos {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 20px;
-
-		a {
-			display: block;
-
-
-		}
-	}
-
-	.portada .header .logotipo {
-		font-size: 30px;
-		letter-spacing: 5px;
-		line-height: 35px;
-		text-align: center;
-		margin: 10px;
-	}
-
-	.portada .header .mensaje {
-		font-size: 15px;
-		margin-top: 0;
-	}
-
-	.header {
-		padding: 20px;
-	}
-
-
-	#cuenta {
-		gap: 15px;
-	}
-
-
-
-}

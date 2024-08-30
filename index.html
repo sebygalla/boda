@@ -1,106 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CUMPLE 15 MARTU!</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700,900&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="css/estilos.css" />
-  </head>
-  <body>
-	<!-- TITULO PRINCIPAL -->
-    <div class="portada" id="portada">
-      <div class="header">
-        <h1 class="logotipo">Martu</h1>
-        <p class="mensaje">Mis 15 años!</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CUMPLE 15 MARTU!</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <section class="portada" id="portada">
+    <!-- TITULO PRINCIPAL -->
+    <div class="texto">
+      <h1 class="logotipo">Martina</h1>
+      <p class="mensaje">You Only Live Once </p>
     </div>
 
-	<!-- DATOS LUGAR FECHA HORA -->
-    <div class="datos">
-        <a href="https://www.facebook.com/falconamsters" class="btn-fecha"
-          ><i class="fas fa-calendar-alt"></i>23 Noviembre, 2024</a
-        >
+    <div class="img">
+      <img src="img/martina2.jpg" alt="foto Martina">
+    </div>
+  </section>
 
-        <a
-          href="https://www.google.com/maps/place/Sal%C3%B3n+De+Eventos+%22EL+TALA%22./@-35.0557344,-58.7431371,17z/data=!3m1!4b1!4m6!3m5!1s0x95bd1f61069ca575:0xd0a92f8043d0c2ad!8m2!3d-35.0557388!4d-58.7405622!16s%2Fg%2F11f15mjg83?entry=ttu"
-          target="_blank"
-          class="btn-map"
-          ><i class="fas fa-map"></i>Estados Unidos 445- Cañuelas</a
-        >
-	</div>
+  <!-- DATOS LUGAR FECHA HORA 
+  <div class="datos">
+    <a href="https://www.facebook.com/falconamsters" class="btn-fecha"><i class="fas fa-calendar-alt"></i>23 Noviembre,
+      2024</a>
+
+    <a href="https://www.google.com/maps/place/Sal%C3%B3n+De+Eventos+%22EL+TALA%22./@-35.0557344,-58.7431371,17z/data=!3m1!4b1!4m6!3m5!1s0x95bd1f61069ca575:0xd0a92f8043d0c2ad!8m2!3d-35.0557388!4d-58.7405622!16s%2Fg%2F11f15mjg83?entry=ttu"
+      target="_blank" class="btn-map"><i class="fas fa-map"></i>Estados Unidos 445- Cañuelas</a>
+  </div>
+  -->
 
 
-	<!-- BOTON COMO LLEGAR? -->
+  <!-- BOTON COMO LLEGAR? 
+  <div class="asistencia">
+    <a href="https://www.facebook.com/falconamsters" class="btn-asistencia" target="_blank">Como llegar?
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
+        viewBox="0 0 16 16">
+        <path
+          d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+      </svg>
+    </a>
+  </div>
+  -->
+
+
+  <!-- CUENTA REGRESIVA -->
+  <div id="cuenta"></div>
+
+  <!-- CONTENEDOR CONFIRMAR ASISTENCIA 
+
+  <div class="btn-contenedor">
     <div class="asistencia">
-        <a
-          href="https://www.facebook.com/falconamsters"
-          class="btn-asistencia"
-          target="_blank"
-          >Como llegar?
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-geo-alt"
-            viewBox="0 0 16 16">
-            <path
-              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
-            <path
-              d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-          </svg>
-        </a>
+      <a href="https://www.facebook.com/falconamsters" class="btn-asistencia" target="_blank">Confirmar asistencia!</a>
     </div>
+  </div>
+  </div>
+
+  -->
 
 
-	<!-- CUENTA REGRESIVA -->
-      <div id="cuenta"></div>
+  <!-- CONTENEDOR  DESPLIEGUE 
+  <main class="contenedor">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus hic
+  
+    </p>
+  </main>
+  -->
 
-	<!-- CONTENEDOR CONFIRMAR ASISTENCIA -->
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 
-      <div class="btn-contenedor">
-        <div class="asistencia">
-          <a
-            href="https://www.facebook.com/falconamsters"
-            class="btn-asistencia"
-            target="_blank"
-            >Confirmar asistencia!</a
-          >
-        </div>
-      </div>
-    </div>
-	<!-- CONTENEDOR  DESPLIEGUE -->
-    <main class="contenedor">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus hic
-        obcaecati fugit illo voluptatibus reiciendis tempora sequi, harum enim
-        eaque fugiat est! Fugiat ipsam eaque qui facilis esse sed voluptatem?
-        Quibusdam quasi voluptatum non fuga. Sit assumenda qui culpa nam vitae
-        maiores, at enim minus eos soluta numquam asperiores ratione iusto
-        perspiciatis cumque? Tenetur dicta voluptates, doloremque ipsa itaque
-        cupiditate! Suscipit placeat, officia enim labore, mollitia corporis
-        molestiae quam amet voluptates quaerat ipsum ut nostrum! Perferendis
-        quidem sapiente, accusamus placeat voluptatem quae laboriosam animi
-        earum nemo natus, culpa eum quam. Recusandae illo aliquam, animi fugit
-        cupiditate blanditiis numquam! Laboriosam quos ullam optio distinctio
-        maiores dolorem pariatur quaerat nulla adipisci cum ratione provident,
-        ducimus delectus quod illum dicta nisi iusto mollitia? A iste eius
-        necessitatibus porro eaque architecto eveniet culpa voluptatibus non!
-        Eius deleniti amet, assumenda eveniet necessitatibus iste quasi facere
-        laudantium dolores numquam commodi magnam ducimus dignissimos quis!
-        Alias, fugit.
-      </p>
-    </main>
+  <script src="js/simplyCountdown.min.js"></script>
 
-    <script
-      src="https://kit.fontawesome.com/2c36e9b7b1.js"
-      crossorigin="anonymous"></script>
+  <script src="js/countdown.js"></script>
+</body>
 
-    <script src="js/simplyCountdown.min.js"></script>
-
-    <script src="js/countdown.js"></script>
-  </body>
 </html>
