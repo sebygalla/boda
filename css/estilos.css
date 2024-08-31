@@ -32,9 +32,6 @@ section {
 	justify-content: center;
 	flex-direction: column;
 
-	
-	
-
 }
 
 .texto {
@@ -45,7 +42,8 @@ section {
 
 	h1 {
 		font-family: silent;
-		font-size: 100px;
+		font-weight: 100;
+		font-size: 80px;
 		margin-top: 10%;
 	}
 
@@ -59,8 +57,8 @@ section {
 .img {
 
 	img {
-		width: 1000px;
-		margin: 0 auto;
+		width: 600px;
+		margin: 0 auto 10%;
 		overflow: hidden;
 	}
 }
@@ -75,18 +73,44 @@ section {
 	margin: auto;
 }
 
-.textoDos {
-	width: 50%;
+
+
+
+/* ? ----- PORTADA TRES---- */
+.portadaTres {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around ;
+
+	background: rgb(195, 161, 161);
+	
+
+
+}
+
+.textoTres {
+	width: 25%;
 	height: auto;
 	color: white;
 	text-align: center;
-	margin: 50px auto;
+	margin: 0 auto;
+
+
+	h1{
+		font-family: silent;
+		font-weight: 600;
+		font-size: 30px;
+		
+	}
 
 	p {
 		font-size: 20px;
+		font-weight: 100;
 		margin-bottom: 20px;
 	}
-
 }
 
 
