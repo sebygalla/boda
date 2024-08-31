@@ -57,7 +57,10 @@ section {
 .img {
 
 	img {
-		width: 600px;
+		width: 100%;
+		max-width: 960px;
+		height: auto;
+		padding: 10px;
 		margin: 0 auto 10%;
 		overflow: hidden;
 	}
@@ -84,15 +87,16 @@ section {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around ;
+	margin: auto;
 
-	background: rgb(195, 161, 161);
+
 	
 
 
 }
 
 .textoTres {
-	width: 25%;
+	width: 95%;
 	height: auto;
 	color: white;
 	text-align: center;
