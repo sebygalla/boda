@@ -86,36 +86,54 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-around ;
-	margin: auto;
-	
+	justify-content: space-around;
+	margin: 0 auto;
+	overflow: hidden;
+
+
 
 }
 
 .textoTres {
-	width: 95%;
+	width: 30%;
 	height: auto;
 	color: white;
 	text-align: center;
-	margin: 0 auto;
 
 
-	h1{
+	h1 {
 		font-weight: 600;
-		font-size: 28px;
-		
+		font-size: 30px;
+
 	}
 
 	p {
 		font-size: 16px;
 		font-weight: 100;
-		margin-bottom: 20px;
+
+	}
+
+	h2 {
+		font-weight: 600;
+		font-size: 20px;
+
 	}
 }
 
 
 
-/* ? ----- Cuenta Regresiva ----- */
+@media (max-width:900px) {
+
+	.textoTres {
+		margin: 20px;
+		margin-bottom: 100px;
+	}
+
+}
+
+
+
+/* ? ----- CUENTA REGRESIVA ----- */
 
 #cuenta {
 	display: flex;
@@ -166,9 +184,9 @@ section {
 
 /* ? ----- REPRODUCTOR ----- */
 
-.box{
+.box {
 	height: 12rem;
-	width: 60%;
+	width: 70%;
 	display: flex;
 	align-items: center;
 	background: #f9f9f9;
@@ -177,48 +195,55 @@ section {
 	overflow: hidden;
 	margin: 2rem;
 	margin-bottom: 10%;
+
+	.image {
+		height: 100%;
+		width: 25%;
+	}
+
+	img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.music {
+		width: 75%;
+	}
+
+	audio {
+		width: 100%;
+		outline: none;
+	}
+
+	audio::-webkit-media-controls-enclosure {
+		background: none;
+	}
+
 }
 
-.box .image{
-	height: 100%;
-	width: 25%;
-}
+/* ? ----- MEDIAQUERYS ----- */
 
-.box .image img{
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-}
-
-.box .music{
-	width: 75%;
-}
-
-.box .music audio{
-	width: 100%;
-	outline: none;
-}
-
-.box .music audio::-webkit-media-controls-enclosure{
-	background: none;
-}
-
-@media (max-width:600px){
-	.box{
-		height: 27rem;
-		width: 98%;
+@media (max-width:600px) {
+	.box {
+		height: 20rem;
+		width: 80%;
 		flex-flow: column;
+
+		.image {
+			height: 80%;
+			width: 100%;
+		}
+
+		.music {
+			height: 20%;
+			width: 100%;
+		}
 	}
 
-	.box .image{
-		height: 80%;
-		width: 100%;
-	}
 
-	.box .music{
-		height: 20%;
-		width: 100%;
-	}
+
+
 }
 
 
