@@ -163,13 +163,13 @@ section {
 /* ? ----- PORTADA CINCO ----- */
 .portadaCinco{
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
 	margin: auto;
-	overflow: hidden;
+	/* overflow: hidden; */
 	/* background: #AF7991; */
 	
 
@@ -178,13 +178,13 @@ section {
 }
 
 .contenedor {
-	width: 50%;
+
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
-	margin: 20px auto;
-	background: rebeccapurple;
+	justify-content: space-around;
+	margin: auto;
+	padding: 20px;
 
 
 	a{
@@ -231,13 +231,12 @@ section {
 
 }
 
-@media (max-width:600px) {
+/* @media (max-width:600px) {
 	.portadaCinco {
 	 display: block;
-	}
+	} */
 
 
-}
 
 
 
