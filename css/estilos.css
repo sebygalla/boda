@@ -19,7 +19,7 @@ body {
 
 /* ? ----- PORTADA ----- */
 section {
-	background: rosybrown;
+	background: #623842;
 
 	;
 }
@@ -102,7 +102,7 @@ section {
 
 
 	h1 {
-	
+
 		font-family: silent;
 		font-weight: 100;
 		font-size: 45px;
@@ -111,16 +111,13 @@ section {
 	}
 
 	p {
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 100;
+		color: rgb(195, 183, 183);
 
 	}
 
-	h2 {
-		font-weight: 600;
-		font-size: 20px;
 
-	}
 }
 
 
@@ -134,11 +131,11 @@ section {
 
 	}
 
-	iframe{
+	iframe {
 		width: 90%;
 	}
 
-	
+
 
 }
 
@@ -152,7 +149,7 @@ section {
 	margin: auto;
 
 	h1 {
-	
+
 		font-family: silent;
 		font-weight: 100;
 		font-size: 45px;
@@ -161,6 +158,90 @@ section {
 
 	}
 }
+
+
+/* ? ----- PORTADA CINCO ----- */
+.portadaCinco{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+	overflow: hidden;
+	/* background: #AF7991; */
+	
+
+
+
+}
+
+.contenedor {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px auto;
+	background: rebeccapurple;
+
+
+	a{
+		text-align: center;
+		text-decoration: none;
+		pointer-events: none;
+	
+		
+	}
+
+
+
+	h1 {
+		font-size: 50px;
+		font-family: "silent";
+		font-weight: 100;
+		color: #fff;
+	}
+
+	i {
+		font-size: 80px;
+		color: #fff;
+		margin: 30px;
+	}
+
+	p {
+		margin: 10px;
+		color: rgb(195, 183, 183);
+	}
+
+	button{
+		list-style: none;
+		padding: 10px 20px;
+		cursor: pointer;
+		font-family: 'Work Sans', sans-serif;
+		color: #623842;
+		font-weight: 600;
+		border-radius: 20px;
+		border: none;
+		margin-top: 20px;
+		pointer-events: all;
+	}
+
+
+}
+
+@media (max-width:600px) {
+	.portadaCinco {
+	 display: block;
+	}
+
+
+}
+
+
+
+
 
 
 
@@ -229,7 +310,7 @@ section {
 
 	.image {
 		height: 100%;
-		width: 25%;
+		width: 28%;
 	}
 
 	img {
