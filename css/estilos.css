@@ -152,7 +152,7 @@ section {
 
 		font-family: silent;
 		font-weight: 100;
-		font-size: 45px;
+		font-size: 50px;
 		margin-top: 10%;
 		color: #ffff;
 
@@ -182,9 +182,10 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-around;
-	margin: auto;
-	padding: 20px;
+	justify-content: space-between;
+	margin: 200px auto;
+	
+
 
 
 	a{
@@ -205,9 +206,9 @@ section {
 	}
 
 	i {
-		font-size: 80px;
+		font-size: 60px;
 		color: #fff;
-		margin: 30px;
+		margin: 5px;
 	}
 
 	p {
@@ -231,12 +232,6 @@ section {
 
 }
 
-/* @media (max-width:600px) {
-	.portadaCinco {
-	 display: block;
-	} */
-
-
 
 
 
@@ -252,8 +247,7 @@ section {
 	justify-content: center;
 	gap: 10px;
 	z-index: 0;
-
-	margin: 10%;
+	margin: 2em;
 }
 
 .simply-section {
