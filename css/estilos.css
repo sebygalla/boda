@@ -219,14 +219,14 @@ section {
 
 	button {
 		list-style: none;
-		padding: 10px 20px;
+		padding: 20px 30px;
 		cursor: pointer;
 		font-family: 'Work Sans', sans-serif;
 		color: #623842;
 		font-weight: 600;
 		border-radius: 20px;
 		border: none;
-		margin-top: 20px;
+		margin-top: 8px;
 		pointer-events: all;
 	}
 }
@@ -241,7 +241,7 @@ section {
 	}
 }
 
-/* ? ----- PORTADA SEIS ----- */
+/* ? ----- PORTADA SEIS (FOOTER)----- */
 .portadaSeis {
 	width: 100%;
 	height: 5em;
