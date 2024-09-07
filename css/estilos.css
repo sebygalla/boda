@@ -170,7 +170,7 @@ section {
 	justify-content: space-around;
 	margin: auto;
 	overflow: hidden;
-	/* background: #AF7991; */
+
 
 
 
@@ -184,6 +184,7 @@ section {
 	align-items: center;
 	justify-content: space-between;
 	margin: 200px auto;
+
 
 
 
@@ -228,8 +229,16 @@ section {
 		margin-top: 20px;
 		pointer-events: all;
 	}
+}
 
 
+/* ? ----- MEDIAQUERYS ----- */
+
+@media (max-width:600px) {
+	.contenedor{
+		padding: 10px;
+		margin: 60px;
+	}
 }
 
 /* ? ----- PORTADA SEIS ----- */
@@ -262,7 +271,7 @@ section {
 	.portadaSeis {
 
 		p {
-			font-size: 10px;
+			font-size: 15px;
 		}
 	}
 
@@ -327,7 +336,7 @@ section {
 
 .box {
 	height: 8rem;
-	width: 40%;
+	width: 50%;
 	display: flex;
 	align-items: center;
 	background: #f9f9f9;
@@ -367,8 +376,8 @@ section {
 
 @media (max-width:600px) {
 	.box {
-		height: 4.5rem;
-		width: 70%;
+		height: 5rem;
+		width: 75%;
 	}
 
 }
