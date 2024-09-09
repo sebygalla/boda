@@ -208,7 +208,7 @@ section {
 	}
 
 	i {
-		font-size: 60px;
+		font-size: 80px;
 		color: #fff;
 		margin: 5px;
 	}
@@ -239,8 +239,17 @@ section {
 	.contenedor{
 		padding: 10px;
 		margin: 60px;
+
+		i{
+			font-size: 60px;
+		}
+		
 	}
 }
+
+/* ? ----- MODAL ----- */
+
+
 
 /* ? ----- PORTADA SEIS (FOOTER)----- */
 .portadaSeis {
