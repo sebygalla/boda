@@ -355,7 +355,10 @@ section {
 @media (max-width:600px) {
 
 	.popup-container {
-		.popup-box {}
+		.popup-box {
+			width: 90%;
+			padding: 10px;
+		}
 	}
 
 }
