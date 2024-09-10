@@ -1,75 +1,93 @@
-        // VENTANA MODAL ( REGALO )
-const showPopup = document.querySelector('.show-popup');
-const popupContainer = document.querySelector('.popup-container');
-const closeBtn = document.querySelector('.close-btn');
+        // VENTANA MODAL
+         
+        //ASISTENCIA
+        const showPopup = document.querySelector('.show-popup');
+        //REGALO
+        const showPopupDos = document.querySelector('.show-popup-dos');
+        //DRESS CODE
+        const showPopupTres = document.querySelector('.show-popup-tres');
+        //CONTENEDOR
+        const popupContainer = document.querySelector('.popup-container');
+        //BOTON CIERRE
+        const closeBtn = document.querySelector('.close-btn');
 
-showPopup.onclick= ()=>{
-    popupContainer.classList.add('active');
-}
 
-closeBtn.onclick= ()=>{
-    popupContainer.classList.remove('active');
-}
 
-    
-    // This is an example with default parameters
+        //ASISTENCIA
+        showPopup.onclick = () => {
+            popupContainer.classList.add('active');
+        }
 
-    simplyCountdown('#cuenta', {
-        year: 2024, // required
-        month: 11, // required
-        day: 24, // required
-        hours: 21, // Default is 0 [0-23] integer
-        minutes: 30, // Default is 0 [0-59] integer
-        seconds: 0, // Default is 0 [0-59] integer
-        words: { //words displayed into the countdown
-            days: {
-                singular: 'Dia',
-                plural: 'Dias'
+        //REGALO
+        showPopupDos.onclick = () => {
+            popupContainer.classList.add('active');
+        }
+
+        //DRESS CODE
+        showPopupTres.onclick = () => {
+            popupContainer.classList.add('active');
+        }
+
+
+        //BOTON CIERRE POPUP
+        closeBtn.onclick = () => {
+            popupContainer.classList.remove('active');
+        }
+
+
+        // This is an example with default parameters
+
+        simplyCountdown('#cuenta', {
+            year: 2024, // required
+            month: 11, // required
+            day: 24, // required
+            hours: 21, // Default is 0 [0-23] integer
+            minutes: 30, // Default is 0 [0-59] integer
+            seconds: 0, // Default is 0 [0-59] integer
+            words: { //words displayed into the countdown
+                days: {
+                    singular: 'Dia',
+                    plural: 'Dias'
+                },
+                hours: {
+                    singular: 'Hora',
+                    plural: 'Horas'
+                },
+                minutes: {
+                    singular: 'Minuto',
+                    plural: 'Minutos'
+                },
+                seconds: {
+                    singular: 'Segundo',
+                    plural: 'Segundos'
+                }
             },
-            hours: {
-                singular: 'Hora',
-                plural: 'Horas'
-            },
-            minutes: {
-                singular: 'Minuto',
-                plural: 'Minutos'
-            },
-            seconds: {
-                singular: 'Segundo',
-                plural: 'Segundos'
-            }
-        },
-        plural: true, //use plurals
-        inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
-        inlineClass: 'simply-countdown-inline', //inline css span class in case of inline = true
-        // in case of inline set to false
-        enableUtc: false, //Use UTC or not - default : false
-        onEnd: function () {
-            document.getElementById('portada').classList.add('oculta');
-            return;
-        }, //Callback on countdown end, put your own function here
+            plural: true, //use plurals
+            inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
+            inlineClass: 'simply-countdown-inline', //inline css span class in case of inline = true
+            // in case of inline set to false
+            enableUtc: false, //Use UTC or not - default : false
+            onEnd: function () {
+                document.getElementById('portada').classList.add('oculta');
+                return;
+            }, //Callback on countdown end, put your own function here
 
 
-        refresh: 1000, // default refresh every 1s
-        sectionClass: 'simply-section', //section css class
-        amountClass: 'simply-amount', // amount css class
-        wordClass: 'simply-word', // word css class
-        zeroPad: false,
-        countUp: false
-    });
+            refresh: 1000, // default refresh every 1s
+            sectionClass: 'simply-section', //section css class
+            amountClass: 'simply-amount', // amount css class
+            wordClass: 'simply-word', // word css class
+            zeroPad: false,
+            countUp: false
+        });
 
-    // Also, you can init with already existing Javascript Object.
-    let myElement = document.querySelector('.my-countdown');
-    simplyCountdown(myElement, {
-        /* options */ });
+        // Also, you can init with already existing Javascript Object.
+        let myElement = document.querySelector('.my-countdown');
+        simplyCountdown(myElement, {
+            /* options */
+        });
 
-    let multipleElements = document.querySelectorAll('.my-countdown');
-    simplyCountdown(multipleElements, {
-        /* options */ });
-
-
-
-
-
-
-
+        let multipleElements = document.querySelectorAll('.my-countdown');
+        simplyCountdown(multipleElements, {
+            /* options */
+        });

@@ -219,6 +219,7 @@ section {
 	}
 
 	button {
+		font-size: 20px;
 		list-style: none;
 		padding: 20px 30px;
 		cursor: pointer;
@@ -236,20 +237,26 @@ section {
 /* ? ----- MEDIAQUERYS ----- */
 
 @media (max-width:600px) {
-	.contenedor{
+	.contenedor {
 		padding: 10px;
 		margin: 60px;
 
-		i{
+		i {
 			font-size: 60px;
 		}
-		
+
+		button {
+			font-size: 15px;
+			border-radius: 15px;
+			width: 90vw;
+		}
+
 	}
 }
 
 /* ? ----- MODAL ----- */
 
-.popup-container{
+.popup-container {
 	width: 100vw;
 	height: 100vh;
 	background: #000000e2;
@@ -262,33 +269,86 @@ section {
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
-	pointer-events: none;	
+	pointer-events: none;
+	transform: scale(0);
+	transition: all 50ms ease-in-out;
 
-	.popup-box{
+	.popup-box {
 		color: #fff;
 		background: #AF7991;
-		width: 70%;
+		width: 50%;
 		padding: 2em;
 		position: relative;
 
-		.close-btn{
+
+
+		h1 {
+			text-align: center;
+			font-family: silent;
+			font-weight: 100;
+			font-size: 50px;
+			color: rgb(195, 183, 183);
+			margin: 15px;
+
+		}
+
+		p {
+			font-size: 16px;
+			font-weight: 100;
+			text-align: center;
+			color: #fff;
+			margin: 15px;
+
+		}
+
+
+
+
+
+		.close-btn {
 			position: absolute;
-			top: 0;
-			right: 0;
+			top: 10px;
+			right: 5px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			margin: 5px 9px;
 			cursor: pointer;
+			width: 30px;
+			height: 30px;
+			text-align: center;
+			background: #000;
+			border-radius: 50%;
 		}
 
 	}
 }
 
-.popup-container.active{
+.popup-container.active {
 	opacity: 1;
 	pointer-events: auto;
+	transform: scale(1);
+
+
+
 }
 
-.modal_show{
+.modal_show {
 	opacity: 1;
+
+}
+
+/* ? ----- MEDIAQUERYS ----- */
+
+@media (max-width:600px) {
+
+	.popup-container{
+	.popup-box {
+		width: 90%;
+		background:#623842;
+
+	}
+
 }
 
 
