@@ -184,11 +184,11 @@ section {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
-	margin: 200px auto;
+	margin: 20px auto;
 
 
- -webkit-backdrop-filter: blur(5px);
- backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 
 
 	background: #af79913a;
@@ -249,8 +249,9 @@ section {
 
 @media (max-width:600px) {
 	.contenedor {
-		padding: 10px;
-		margin: 60px;
+		width: 80vw;
+		padding: 25px;
+		margin: 30px;
 
 		i {
 			font-size: 60px;
@@ -353,14 +354,9 @@ section {
 
 @media (max-width:600px) {
 
-	.popup-container{
-	.popup-box {
-	
-
-	
-		
+	.popup-container {
+		.popup-box {}
 	}
-}
 
 }
 
