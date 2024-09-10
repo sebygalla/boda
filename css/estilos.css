@@ -183,8 +183,19 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 200px auto;
+
+
+ -webkit-backdrop-filter: blur(5px);
+ backdrop-filter: blur(5px);
+
+
+	background: #af79913a;
+	border-radius: 10px;
+	width: 40vw;
+	height: auto;
+	padding: 85px;
 
 
 
@@ -248,7 +259,7 @@ section {
 		button {
 			font-size: 15px;
 			border-radius: 15px;
-			width: 90vw;
+			width: 90%;
 		}
 
 	}
@@ -344,10 +355,12 @@ section {
 
 	.popup-container{
 	.popup-box {
-		width: 90%;
-		background:#623842;
+	
 
+	
+		
 	}
+}
 
 }
 
