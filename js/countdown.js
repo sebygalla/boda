@@ -1,37 +1,49 @@
         // VENTANA MODAL
-         
+
         //ASISTENCIA
         const showPopup = document.querySelector('.show-popup');
         //REGALO
         const showPopupDos = document.querySelector('.show-popup-dos');
         //DRESS CODE
         const showPopupTres = document.querySelector('.show-popup-tres');
+
+
         //CONTENEDOR
         const popupContainer = document.querySelector('.popup-container');
+        //CONTENEDOR
+        const popupContainerDos = document.querySelector('.popup-container-dos');
         //BOTON CIERRE
         const closeBtn = document.querySelector('.close-btn');
+        //BOTON CIERRE
+        const closeBtnDos = document.querySelector('.close-btn-dos');
 
 
 
         //ASISTENCIA
-        showPopup.onclick = () => {
-            popupContainer.classList.add('active');
-        }
+
 
         //REGALO
-        showPopupDos.onclick = () => {
+        showPopupDos.onclick = (e) => {
+            e.preventDefault();
             popupContainer.classList.add('active');
         }
 
         //DRESS CODE
-        showPopupTres.onclick = () => {
-            popupContainer.classList.add('active');
+        showPopupTres.onclick = (e) => {
+            e.preventDefault();
+            popupContainerDos.classList.add('active');
         }
 
 
         //BOTON CIERRE POPUP
-        closeBtn.onclick = () => {
+        closeBtn.onclick = (e) => {
+            e.preventDefault();
             popupContainer.classList.remove('active');
+        }
+
+        closeBtnDos.onclick = (e) => {
+            e.preventDefault();
+            popupContainerDos.classList.remove('active');
         }
 
 
