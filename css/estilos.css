@@ -657,8 +657,9 @@ section {
 
 @media (max-width:600px) {
 	.box {
-		height: 7rem;
-		width: 75%;
+		height: 5rem;
+		width: 95%;
+		margin-top: 30%;
 		margin-bottom: 30%;
 	}
 
