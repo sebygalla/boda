@@ -579,7 +579,7 @@ section {
 	.simply-section {
 		width: 100px;;
 		height: 100px;
-		margin: 0;
+		margin: 10px;
 		border-radius: 6px;
 	
 
@@ -590,7 +590,7 @@ section {
 		}
 		
 		.simply-word {
-			font-weight: 400;
+			font-weight: 700;
 			font-size: 15px;
 		
 		
