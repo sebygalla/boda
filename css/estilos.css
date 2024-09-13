@@ -329,7 +329,7 @@ section {
 			width: 30px;
 			height: 30px;
 			text-align: center;
-			background: #000;
+			background: #623842;
 			border-radius: 50%;
 		}
 
@@ -399,7 +399,7 @@ section {
 			width: 30px;
 			height: 30px;
 			text-align: center;
-			background: #000;
+			background: #623842;
 			border-radius: 50%;
 		}
 
@@ -438,16 +438,24 @@ section {
 		.popup-box {
 			width: 90%;
 			padding: 10px;
+
+			h1 {
+				font-size: 50px;
+			}
 		}
 	}
 
-	
+
 	.popup-container-dos {
 		.popup-box-dos {
 			width: 90%;
 			padding: 10px;
 
-	
+			h1 {
+				font-size: 50px;
+			}
+
+
 		}
 	}
 
@@ -507,7 +515,7 @@ section {
 	justify-content: center;
 	gap: 10px;
 	z-index: 0;
-	margin: 2em;
+	margin: 3em;
 }
 
 .simply-section {
@@ -539,6 +547,35 @@ section {
 .simply-word {
 	font-weight: 400;
 	font-size: 20px;
+	
+}
+
+
+@media (max-width:600px) {
+	.simply-section {
+		width: 55px;;
+		height: 55px;
+		margin: 0;
+		border-radius: 6px;
+	
+
+		.simply-amount {
+			display: block;
+			font-size: 30px;
+			font-weight: 400;
+		}
+		
+		.simply-word {
+			font-weight: 400;
+			font-size: 10px;
+		
+		
+		}
+
+	}
+
+
+
 }
 
 /* ? ---------------------------- */
@@ -593,6 +630,7 @@ section {
 	.box {
 		height: 7rem;
 		width: 75%;
+		margin-bottom: 30%;
 	}
 
 }

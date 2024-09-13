@@ -66,12 +66,12 @@
                     plural: 'Horas'
                 },
                 minutes: {
-                    singular: 'Minuto',
-                    plural: 'Minutos'
+                    singular: 'Min',
+                    plural: 'Min'
                 },
                 seconds: {
-                    singular: 'Segundo',
-                    plural: 'Segundos'
+                    singular: 'Seg',
+                    plural: 'Seg'
                 }
             },
             plural: true, //use plurals
