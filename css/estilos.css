@@ -271,7 +271,14 @@ section {
 .popup-container {
 	width: 100vw;
 	height: 100vh;
-	background: #000000e2;
+	background: #000000b9;
+
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -282,8 +289,11 @@ section {
 	justify-content: center;
 	opacity: 0;
 	pointer-events: none;
-	transform: scale(0);
-	transition: all 50ms ease-in-out;
+	transition: opacity .6s;
+
+
+	
+
 
 	.popup-box {
 		color: #fff;
@@ -291,6 +301,9 @@ section {
 		width: 50%;
 		padding: 2em;
 		position: relative;
+	
+		
+
 
 
 
@@ -341,7 +354,14 @@ section {
 .popup-container-dos {
 	width: 100vw;
 	height: 100vh;
-	background: #000000e2;
+	background: #000000b9;
+
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -352,8 +372,8 @@ section {
 	justify-content: center;
 	opacity: 0;
 	pointer-events: none;
-	transform: scale(0);
-	transition: all 50ms ease-in-out;
+
+	transition: opacity .6s;
 
 	.popup-box-dos {
 		color: #fff;
@@ -411,6 +431,7 @@ section {
 	pointer-events: auto;
 	transform: scale(1);
 
+
 }
 
 .popup-container-dos.active {
@@ -418,15 +439,18 @@ section {
 	pointer-events: auto;
 	transform: scale(1);
 
+
 }
 
 .modal_show {
 	opacity: 1;
+	
 
 }
 
 .modal_show_dos {
 	opacity: 1;
+
 
 }
 
