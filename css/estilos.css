@@ -10,9 +10,15 @@
 
 }
 
+@font-face {
+	font-family: 'Poppins';
+	src: url(/tipografia/Poppins-Light.ttf);
+}
+
 body {
 
-	font-family: 'Work Sans', sans-serif;
+	/* font-family: 'Work Sans', sans-serif; */
+	font-family: 'Poppins', sans-serif;
 	background: #623842;
 }
 
@@ -506,7 +512,7 @@ section {
 
 	p {
 		color: #fff;
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 
@@ -515,7 +521,7 @@ section {
 }
 
 
-/* ? ----- MEDIAQUERYS ----- */
+/* ? ----- MEDIAQUERYS (FOOTER)----- */
 
 @media (max-width:600px) {
 
@@ -523,7 +529,7 @@ section {
 		text-align: center;
 
 		p {
-			font-size: 15px;
+			font-size: 12px;
 		}
 	}
 
