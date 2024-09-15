@@ -39,6 +39,8 @@ section {
 	justify-content: center;
 	flex-direction: column;
 
+
+
 }
 
 .texto {
@@ -70,6 +72,7 @@ section {
 		padding: 10px;
 		margin: 0 auto 10%;
 		overflow: hidden;
+		
 	}
 }
 
@@ -112,13 +115,13 @@ section {
 
 		font-family: silent;
 		font-weight: 100;
-		font-size: 45px;
+		font-size: 35px;
 		margin-top: 10%;
 
 	}
 
 	p {
-		font-size: 18px;
+		font-size: 16px;
 		font-weight: 100;
 		color: rgb(195, 183, 183);
 
@@ -182,6 +185,7 @@ section {
 	justify-content: space-around;
 	margin: 120px auto;
 	overflow: hidden;
+	padding: 5%;
 
 
 
@@ -204,9 +208,9 @@ section {
 
 	background: #af79913a;
 	border-radius: 10px;
-	width: 40vw;
+	width: 20vw;
 	height: auto;
-	padding: 85px;
+	padding: 45px;
 
 	
 

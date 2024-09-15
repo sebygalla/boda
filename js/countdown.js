@@ -103,3 +103,5 @@ let multipleElements = document.querySelectorAll('.my-countdown');
 simplyCountdown(multipleElements, {
     /* options */
 });
+
+
