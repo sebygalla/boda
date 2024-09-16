@@ -296,13 +296,15 @@ section {
 
 @media (max-width:600px) {
 	.contenedor {
-		width: 80vw;
+		width: 85vw;
 		padding: 25px;
 		margin: 30px;
 
 		i {
 			font-size: 60px;
 		}
+
+	
 
 		button {
 			font-size: 15px;
