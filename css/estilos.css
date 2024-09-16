@@ -76,6 +76,23 @@ section {
 	}
 }
 
+
+@media (max-width:900px) {
+
+.img{
+	margin-top: 40px;
+}
+
+.texto{
+	p{
+		font-size: 15px;
+	}
+}
+
+
+
+}
+
 /* ? ----- PORTADA DOS ----- */
 .portadaDos {
 	width: 100%;
@@ -682,9 +699,9 @@ section {
 
 @media (max-width:600px) {
 	.box {
-		height: 5rem;
-		width: 95%;
-		margin-top: 30%;
+		height: 4rem;
+		width: 80%;
+		margin-top: 0%;
 		margin-bottom: 30%;
 	}
 
