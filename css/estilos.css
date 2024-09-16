@@ -543,14 +543,27 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	margin: auto;
 	overflow: hidden;
 	background: #AF7991;
 
-	p {
+	a{
+	
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+
 		color: #fff;
 		font-size: 16px;
+		padding: 8px;
+
+	}
+
+
+	img{
+		width: 50px;
+		margin-right: 20px ;
 	}
 
 
@@ -566,8 +579,13 @@ section {
 	.portadaSeis {
 		text-align: center;
 
-		p {
+		a {
 			font-size: 12px;
+		}
+
+		img{
+			width: 30px;
+			margin-right: 10px ;
 		}
 	}
 
