@@ -121,7 +121,7 @@ section {
 	}
 
 	p {
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: 100;
 		color: rgb(195, 183, 183);
 
@@ -185,7 +185,7 @@ section {
 	justify-content: space-around;
 	margin: 120px auto;
 	overflow: hidden;
-	padding: 5%;
+	padding: 10px;
 
 
 
@@ -208,7 +208,7 @@ section {
 
 	background: #af79913a;
 	border-radius: 10px;
-	width: 20vw;
+	width: 30vw;
 	height: auto;
 	padding: 45px;
 
@@ -236,12 +236,13 @@ section {
 	}
 
 	i {
-		font-size: 80px;
+		font-size: 60px;
 		color: #fff;
 		margin: 5px;
 	}
 
 	p {
+		font-size: 14px;
 		margin: 10px;
 		color: rgb(195, 183, 183);
 	}
@@ -258,7 +259,17 @@ section {
 		border: none;
 		margin-top: 8px;
 		pointer-events: all;
+
+	
 	}
+
+	button:hover{
+		background:#AF7991;
+		color: #f9f9f9;
+		transition: all .4s ease-in-out;
+	}
+
+
 
 	
 }
@@ -630,8 +641,8 @@ section {
 /* ? ----- REPRODUCTOR ----- */
 
 .box {
-	height: 8rem;
-	width: 50%;
+	height: 6rem;
+	width: 30%;
 	display: flex;
 	align-items: center;
 	background: #f9f9f9;
