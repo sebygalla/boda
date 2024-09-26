@@ -85,7 +85,7 @@ section {
 position: absolute;
 overflow: hidden;
 z-index: -1;
-opacity: .2;
+opacity: .05;
 width: 100%;
 }
 
