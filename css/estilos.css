@@ -54,13 +54,13 @@ section {
 	h1 {
 		font-family: silent;
 		font-weight: 100;
-		font-size: 80px;
+		font-size: 100px;
 		margin-top: 10%;
 	}
 
 	p {
 		font-size: 20px;
-		margin-bottom: 20px;
+		margin-bottom: 100px;
 	}
 
 }
@@ -196,7 +196,7 @@ iframe {
 
 		
 		font-weight: 900;
-		font-size: 50px;
+		font-size: 35px;
 		margin-top: 10%;
 		color: #ffff;
 
