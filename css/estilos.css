@@ -39,8 +39,7 @@ section {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	position: relative;
-	z-index: 1;
+	
 
 
 
@@ -75,19 +74,13 @@ section {
 		padding: 10px;
 		margin: 0 auto 10%;
 		overflow: hidden;
-		z-index: 0;
+	
 		
 		
 	}
 }
 
-.img_fondo{
-position: absolute;
-overflow: hidden;
-z-index: -1;
-opacity: .05;
-width: 100%;
-}
+
 
 
 @media (max-width:900px) {
@@ -96,10 +89,6 @@ width: 100%;
 	margin-top: 40px;
 }
 
-.img_fondo{
-	width: 1350px;
-
-	}
 
 .texto{
 	p{
@@ -150,8 +139,7 @@ width: 100%;
 
 	h1 {
 
-		font-family: silent;
-		font-weight: 100;
+		font-weight: 900;
 		font-size: 35px;
 		margin-top: 10%;
 
@@ -206,8 +194,8 @@ iframe {
 
 	h1 {
 
-		font-family: silent;
-		font-weight: 100;
+		
+		font-weight: 900;
 		font-size: 50px;
 		margin-top: 10%;
 		color: #ffff;
