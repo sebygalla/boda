@@ -881,9 +881,12 @@ iframe {
 	justify-content: space-between;
 	flex-direction: column;
 	gap: 2em;
-	margin-bottom: 2em;
-	
+	margin-bottom: 2em;	
 
+}
+
+.pie_foto i{
+	color: white;
 }
 
 .pie_foto a{
@@ -939,7 +942,8 @@ iframe {
 	}
 
 	.pie_foto h2{
-		font-size: 20px;
+		font-size: 18px;
+		font-weight: bold;
 	}
 	.pie_foto p{
 		font-size: 15px;
