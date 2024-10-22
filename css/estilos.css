@@ -973,11 +973,11 @@ iframe {
 		align-items: center;
 		flex-direction: row;
 		gap: 5px;
-		margin-bottom: 10px;	
+		margin-bottom: 20px;	
 	}
 
 	.pie_foto i{
-		font-size: 25px;
+		font-size: 22px;
 	}
 
 
@@ -985,7 +985,7 @@ iframe {
 		font-size: 18px;
 	}
 	.pie_foto h4{
-		font-size: 15px;
+		font-size: 14px;
 	}
 
 	.pie_foto2{
@@ -1030,6 +1030,7 @@ iframe {
 		
 
 	}
+
 	
 	.pie_foto{
 		gap: 25px;
