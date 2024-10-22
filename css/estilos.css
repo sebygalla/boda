@@ -19,7 +19,9 @@ body {
 
 	/* font-family: 'Work Sans', sans-serif; */
 	font-family: 'Poppins', sans-serif;
-	background: #623842;
+	background: #5A2F39;
+
+
 
 }
 
@@ -29,7 +31,6 @@ body {
 section {
 	background: #623842;
 
-	;
 }
 
 .portada {
@@ -40,10 +41,10 @@ section {
 	justify-content: center;
 	flex-direction: column;
 
-
-
-
+	
 }
+
+
 
 .texto {
 	width: 50%;
@@ -56,6 +57,7 @@ section {
 		font-weight: 100;
 		font-size: 100px;
 		margin-top: 10%;
+	
 	}
 
 	p {
@@ -74,6 +76,7 @@ section {
 		padding: 10px;
 		margin: 0 auto 10%;
 		overflow: hidden;
+		
 
 
 
@@ -197,6 +200,12 @@ iframe {
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
+	background: url(../img/fondo/layered-waves-haikei.svg);
+	background-size: 1350px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+
+	
 
 	h1 {
 
@@ -218,9 +227,10 @@ iframe {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
-	margin: 120px auto;
+	margin: 200px auto;
 	overflow: hidden;
 	padding: 10px;
+	background: #5A2F39;
 
 
 
@@ -877,15 +887,17 @@ iframe {
 	margin: auto;
 	line-height: 0;
 	display: flex;
-	align-items: start;
+	align-items: last baseline;
 	justify-content: space-between;
-	flex-direction: column;
-	gap: 2em;
+	flex-direction: row;
+	gap: 20px;
 	margin-bottom: 2em;	
 
 }
 
 .pie_foto i{
+	
+	font-size: 14px;
 	color: white;
 }
 
@@ -900,7 +912,11 @@ iframe {
 }
 
 .pie_foto p{
+	font-size: 16px;
 	font-weight: 800;
+}
+.pie_foto h4{
+	font-size: 14px;
 }
 
 @media (max-width:600px) {
@@ -935,10 +951,13 @@ iframe {
 		display: flex;
 		align-items: start;
 		justify-content: center;
-		gap: 1em;
+		gap: 12px;
 		flex-direction: column;
-		line-height: 6px;
-	
+		line-height: 8px;
+	}
+
+	.pie_foto i{
+		font-size: 16px;
 	}
 
 	.pie_foto h2{
@@ -952,4 +971,42 @@ iframe {
 		font-size: 15px;
 	}
 
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 600px) and (max-width: 1200px){
+	
+	.slider_titulo{
+		font-size: 28px;
+	}
+	
+	.slider_container {
+		width: 90%;
+		height: 70vh;
+		margin: auto;
+		margin-bottom: 2em;
+		
+	}
+
+	.slide {
+		width: 100%;
+		height: 100%;
+	}
+
+	.slide img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		top: 0;
+		
+
+	}
+	
+	.pie_foto{
+		gap: 25px;
+	}
+
+	.pie_foto i{
+		font-size: 20px;
+	}
 }
