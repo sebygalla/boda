@@ -575,6 +575,9 @@ iframe {
 	margin: auto;
 	overflow: hidden;
 	background: #AF7991;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
 
 	a {
 
