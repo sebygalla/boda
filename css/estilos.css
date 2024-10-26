@@ -581,8 +581,7 @@ iframe {
 	margin: auto;
 	overflow: hidden;
 	background: #AF7991;
-	position: fixed;
-	bottom: 0;
+
 	z-index: 99;
 
 	a {
@@ -899,8 +898,10 @@ iframe {
 	display: flex;
 	align-items: center;
 	flex-direction: row;
-	gap: 12px;
-	margin-bottom: 2em;
+	gap: 10px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
 
 }
 
@@ -913,13 +914,14 @@ iframe {
 	align-items: center;
 	flex-direction: row;
 	gap: 12px;
-	margin-bottom: 2em;
+
 
 }
 
 .pie_foto i {
 	font-size: 28px;
 	color: white;
+	
 
 }
 
@@ -933,6 +935,8 @@ iframe {
 	text-align: left;
 	color: white;
 	font-weight: 100;
+
+
 }
 
 .pie_foto2 p,
@@ -961,7 +965,7 @@ h4 {
 		width: 90%;
 		height: 70vh;
 		margin: auto;
-		margin-bottom: 2em;
+		margin-bottom: 5em;
 
 
 	}
@@ -988,8 +992,10 @@ h4 {
 		align-items: center;
 		justify-content: center;
 		flex-direction: row;
-		gap: 5px;
-		margin-bottom: 20px;
+		margin-bottom: 1em;
+		
+	
+	
 	}
 
 	.pie_foto i {
@@ -998,6 +1004,7 @@ h4 {
 
 	.pie_foto p {
 		font-size: 14px;
+		
 	}
 
 	.pie_foto h4 {
@@ -1012,7 +1019,7 @@ h4 {
 		justify-content: center;
 
 		gap: 5px;
-		margin-bottom: 4em;
+		margin-bottom: 1em;
 
 	}
 
@@ -1074,7 +1081,7 @@ h4 {
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
-	background: url(../img/fondo/layered-waves-haikei.svg);
+	background: url(../img/fondo/layered-waves-haikei-dos.svg);
 	background-size: 1350px;
 	background-repeat: no-repeat;
 	background-position: center bottom;
@@ -1085,7 +1092,7 @@ h4 {
 		font-family: silent;
 		font-weight: 100;
 		/* font-size: 80px; */
-		font-size: 100px;
+		font-size: 60px;
 		color: rgb(255, 255, 255);
 		/* margin: 45px 0 35px 0; */
 		margin: 60px 0 40px 0;
@@ -1093,10 +1100,10 @@ h4 {
 	}
 
 	p {
-		width: 90%;
+		width: 85%;
 		font-weight: 100;
 		/* font-size: 18px; */
-		font-size: 25px;
+		font-size: 20px;
 		color: #ffff;
 		text-align: justify;
 		padding: 30px;
