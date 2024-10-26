@@ -350,7 +350,7 @@ iframe {
 	height: 100vh;
 	background: #000000b9;
 
-	border-radius: 16px;
+
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(6px);
 	-webkit-backdrop-filter: blur(6px);
@@ -368,6 +368,8 @@ iframe {
 	pointer-events: none;
 	transition: opacity .6s;
 
+	z-index: 999;
+
 
 
 
@@ -378,6 +380,7 @@ iframe {
 		width: 50%;
 		padding: 2em;
 		position: relative;
+		border-radius: 12px ;
 
 
 
@@ -433,7 +436,7 @@ iframe {
 	height: 100vh;
 	background: #000000b9;
 
-	border-radius: 16px;
+
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(6px);
 	-webkit-backdrop-filter: blur(6px);
@@ -452,12 +455,15 @@ iframe {
 
 	transition: opacity .6s;
 
+	z-index: 999;
+
 	.popup-box-dos {
 		color: #fff;
 		background: #AF7991;
 		width: 50%;
 		padding: 2em;
 		position: relative;
+		border-radius: 12px;
 
 
 
@@ -577,7 +583,7 @@ iframe {
 	background: #AF7991;
 	position: fixed;
 	bottom: 0;
-	z-index: 999;
+	z-index: 99;
 
 	a {
 
@@ -1068,11 +1074,11 @@ h4 {
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
-	background: url(../img/fondo/layered-waves-haikei-nuevo.svg);
+	background: url(../img/fondo/layered-waves-haikei.svg);
 	background-size: 1350px;
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	background-attachment: fixed;
+	
 
 	h1 {
 		text-align: center;
