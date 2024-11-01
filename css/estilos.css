@@ -140,7 +140,7 @@ section {
 }
 
 .textoTres {
-	width: 30%;
+	width: 40%;
 	height: auto;
 	color: #f9f9f9;
 	text-align: center;
@@ -149,7 +149,7 @@ section {
 	h1 {
 
 		font-weight: 900;
-		font-size: 35px;
+		font-size: 30px;
 		margin-top: 10%;
 
 	}
@@ -175,7 +175,7 @@ iframe {
 	.textoTres {
 		width: 90%;
 		margin: 20px;
-		margin-bottom: 100px;
+		margin-bottom: 10px;
 
 		h1 {
 			line-height: 40px;
@@ -824,35 +824,35 @@ iframe {
 
 
 .slide.one {
-	background: url(../img/sesion-12.jpg);
+	background: url(../img/sesion-12.webp);
 	background-size: cover;
 	background-position: center 30%;
 	background-repeat: no-repeat;
 }
 
 .slide.two {
-	background: url(../img/sesion-15.jpg);
+	background: url(../img/sesion-15.webp);
 	background-size: cover;
 	background-position: center 30%;
 	background-repeat: no-repeat;
 }
 
 .slide.three {
-	background: url(../img/sesion-19.jpg);
+	background: url(../img/sesion-19.webp);
 	background-size: cover;
 	background-position: center 60%;
 	background-repeat: no-repeat;
 }
 
 .slide.four {
-	background: url(../img/sesion-87.jpg);
+	background: url(../img/sesion-87.webp);
 	background-size: cover;
 	background-position: center 30%;
 	background-repeat: no-repeat;
 }
 
 .slide.five {
-	background: url(../img/sesion-95.jpg);
+	background: url(../img/sesion-95.webp);
 	background-size: cover;
 	background-position: center 30%;
 	background-repeat: no-repeat;
@@ -860,7 +860,7 @@ iframe {
 
 
 .slide.six {
-	background: url(../img/sesion-127.jpg);
+	background: url(../img/sesion-127.webp);
 	background-size: cover;
 	background-position: center 30%;
 	background-repeat: no-repeat;
@@ -868,7 +868,7 @@ iframe {
 
 
 .slide.seven {
-	background: url(../img/sesion-172.jpg);
+	background: url(../img/sesion-172.webp);
 	background-size: cover;
 	background-position: center 30%;
 	background-repeat: no-repeat;
@@ -940,7 +940,8 @@ iframe {
 }
 
 .pie_foto a {
-	color: #f9f9f9 text-decoration: none;
+	color: #f9f9f9;
+	text-decoration: none;
 }
 
 .pie_foto p {
