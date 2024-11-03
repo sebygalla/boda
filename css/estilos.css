@@ -159,6 +159,7 @@ section {
 		font-size: 50px;
 		margin-bottom: 20px;
 		
+		
 
 	}
 
@@ -202,7 +203,8 @@ iframe {
 		margin: 20px;
 		margin-bottom: 10px;
 
-		h1 {
+		.logotipo {
+			font-size: 40px;
 			line-height: 40px;
 		}
 
