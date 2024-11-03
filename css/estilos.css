@@ -62,7 +62,7 @@ section {
 		font-weight: 100;
 		font-size: 100px;
 		margin: auto;
-		margin-top: 20%;
+		margin-top: 10%;
 		text-align: center;
 
 	}
@@ -156,23 +156,41 @@ section {
 	h1 {
 
 		font-weight: 900;
-		font-size: 30px;
-		margin-top: 10%;
+		font-size: 50px;
+		margin-bottom: 20px;
+		
 
 	}
 
-	p {
-		font-size: 14px;
+	.mensajeTres {
+		font-size: 22px;
 		font-weight: 100;
 		color: #f9f9f9;
+		margin-bottom: 20px;
 
 	}
 
 
 }
+.mensajeDireccion{
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 2em;
+	
+}
+.textoTres .logotipo{
+	font-size: 60px;
+}
+
+.lugar-evento{
+	font-size: 40px;
+	
+	
+}
 
 iframe {
 	z-index: 1;
+	
 }
 
 
@@ -608,7 +626,7 @@ iframe {
 		text-decoration: none;
 
 		color: #f9f9f9;
-		font-size: 16px;
+		font-size: 14px;
 		padding: 8px;
 
 	}
@@ -633,7 +651,7 @@ iframe {
 		text-align: center;
 
 		a {
-			font-size: 12px;
+			font-size: 10px;
 		}
 
 		img {
@@ -943,7 +961,7 @@ iframe {
 	flex-direction: row;
 	gap: 10px;
 	margin-top: 15px;
-	margin-bottom: 25px;
+	margin-bottom: 85px;
 
 
 }
@@ -1036,7 +1054,7 @@ h4 {
 		align-items: center;
 		justify-content: center;
 		flex-direction: row;
-		margin-bottom: 1em;
+		margin-bottom: 2em;
 	}
 
 	.pie_foto i {
@@ -1167,7 +1185,7 @@ h4 {
 		}
 
 		p {
-			font-size: 16px;
+			font-size: 20px;
 			padding: 0;
 		
 		
