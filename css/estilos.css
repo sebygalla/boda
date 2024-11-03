@@ -44,6 +44,10 @@ section {
 
 }
 
+/* .mensaje{
+	letter-spacing: 16px;
+} */
+
 
 
 .texto {
@@ -51,12 +55,15 @@ section {
 	height: auto;
 	color: #f9f9f9;
 	text-align: center;
+	justify-content: center;
 
 	h1 {
 		font-family: silent;
 		font-weight: 100;
 		font-size: 100px;
-		margin-top: 10%;
+		margin: auto;
+		margin-top: 20%;
+		text-align: center;
 
 	}
 
@@ -96,13 +103,13 @@ section {
 	.texto {
 
 		h1 {
-			font-size: 75px;
+			font-size: 85px;
 		}
 
-		p {
+		/* p {
 			font-size: 15px;
 			margin-bottom: 10px;
-		}
+		} */
 	}
 
 
@@ -207,14 +214,23 @@ iframe {
 
 	.logotipo {
 		text-align: center;
-		font-weight: 900;
-		font-size: 30px;
+		font-weight: 100;
+		font-size: 50px;
 		color: #f9f9f9;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		gap: 20px;
 		margin-top: 10%;
+		font-family: 'silent';
+
+	
+
+	
+	}
+
+	.fa-solid{
+		font-size: 50px;
 	}
 
 }
@@ -355,7 +371,7 @@ iframe {
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(6px);
 	-webkit-backdrop-filter: blur(6px);
-	border: 1px solid rgba(255, 255, 255, 0.3);
+	/* border: 1px solid rgba(255, 255, 255, 0.3); */
 
 	position: fixed;
 	top: 0;
@@ -441,7 +457,7 @@ iframe {
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(6px);
 	-webkit-backdrop-filter: blur(6px);
-	border: 1px solid rgba(255, 255, 255, 0.3);
+	/* border: 1px solid rgba(255, 255, 255, 0.3); */
 
 	position: fixed;
 	top: 0;
@@ -776,14 +792,15 @@ iframe {
 
 .slider_titulo {
 	text-align: center;
-	font-weight: 900;
-	font-size: 30px;
+	font-weight: 100;
+	font-size: 50px;
 	color: #f9f9f9;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
 	margin-bottom: 1em;
+	font-family: 'silent';
 
 
 
@@ -985,7 +1002,7 @@ h4 {
 
 @media (max-width:600px) {
 	.slider_titulo {
-		font-size: 28px;
+		font-size: 48px;
 	}
 
 	.slider_container {
@@ -1128,7 +1145,7 @@ h4 {
 		/* font-size: 18px; */
 		font-size: 20px;
 		color: #ffff;
-		text-align: justify;
+		text-align: center;
 		padding: 30px;
 		margin-bottom: 130px;
 
@@ -1138,13 +1155,22 @@ h4 {
 @media (max-width:600px) {
 
 	.portadaOcho {
+		.portadaOcho{
+			width: 100%;
+			background-size: 850px;
+		
+		}
+
 		h1 {
-			font-size: 80px;
+			font-size: 50px;
 			margin: 45px 0 35px 0;
 		}
 
 		p {
-			font-size: 18px;
+			font-size: 16px;
+			padding: 0;
+		
+		
 		}
 
 	}
