@@ -164,6 +164,11 @@ section {
 
 	}
 
+	.logotipoTres {
+		font-size: 20px;
+		font-weight: 100;
+	}
+
 
 }
 
@@ -172,7 +177,7 @@ section {
 	line-height: 17px;
 	margin-bottom: 2em;
 	position: absolute;
-	top: 58%;
+	top: 68%;
 	right: 0;
 	left: 0;
 
@@ -181,6 +186,8 @@ section {
 .textoTres .logotipo {
 	font-size: 60px;
 }
+
+
 
 .lugar-evento {
 	font-size: 60px;
@@ -194,6 +201,8 @@ iframe {
 	z-index: 1;
 
 }
+
+
 
 
 
@@ -215,9 +224,14 @@ iframe {
 		}
 
 		.mensajeDireccion {
-			top: 78%;
+			top: 82%;
 			right: 0;
 			left: 0;
+		}
+
+		.logotipoTres {
+			font-size: 22px;
+			font-weight: 100;
 		}
 
 
