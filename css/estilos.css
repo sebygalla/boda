@@ -5,7 +5,7 @@
 	--color-maderaNatural: #A0522D;
 	--color-rosaEmpolvado: #D8BFD8;
 	--color-amarilloPalido: #FFFACD;
-  }
+}
 
 * {
 	margin: 0;
@@ -116,7 +116,7 @@ section {
 
 	.texto {
 
-		h1 {	
+		h1 {
 			font-size: 35px;
 		}
 
@@ -144,6 +144,7 @@ section {
 
 
 /* ? ----- PORTADA TRES---- */
+
 .portadaTres {
 	width: 100%;
 	height: auto;
@@ -156,58 +157,26 @@ section {
 }
 
 .textoTres {
-	width: 40%;
+	width: 100%;
 	height: auto;
 	color: #f9f9f9;
 	text-align: center;
-	position: relative;
+	padding: 20px;
+	background: var(--color-maderaNatural);
+	
 
 
 	h1 {
 
 		font-weight: 900;
 		font-size: 50px;
-		margin-bottom: 20px;
+	
 	}
 
-	.mensajeTres {
-		font-size: 22px;
-		font-weight: 100;
-		color: #f9f9f9;
-		margin-bottom: 30px;
-
+	h3 {
+		font-size: 60px;
+	
 	}
-
-	.logotipoTres {
-		font-size: 20px;
-		font-weight: 100;
-	}
-
-
-}
-
-.mensajeDireccion {
-	font-size: 16px;
-	line-height: 17px;
-	margin-bottom: 2em;
-	position: absolute;
-	top: 68%;
-	right: 0;
-	left: 0;
-
-}
-
-.textoTres .logotipo {
-	font-size: 60px;
-}
-
-
-
-.lugar-evento {
-	font-size: 60px;
-	margin-bottom: 3em;
-
-
 
 }
 
@@ -216,45 +185,71 @@ iframe {
 
 }
 
+.division {
+	width: 80%;
+	color: var(--color-blancoMarfil);
+	margin: 20px auto;
+	/* background: var(--color-lavandaSuave); */
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	
+}
 
+.linea {
+	border-left: 4px solid #ccc; 
+	width:1px;
+	height:200px;
 
-
+}
 
 @media (max-width:900px) {
 
 	.textoTres {
-		width: 90%;
-		margin: 20px;
-		margin-bottom: 10px;
+		width: 100%;
+		margin: auto;
+		padding: 10%;
+	
 
-		.logotipo {
-			font-size: 40px;
-			line-height: 40px;
+		h1 {
+			font-size: 30px;
+			margin: 0 0 20px 0;
+			
 		}
 
-		.lugar-evento {
+		h3 {
 			font-size: 40px;
 			margin-bottom: 1em;
 		}
-
-		.mensajeDireccion {
-			top: 82%;
-			right: 0;
-			left: 0;
-		}
-
-		.logotipoTres {
-			font-size: 22px;
-			font-weight: 100;
-		}
-
 
 	}
 
 	iframe {
 		width: 90%;
 	}
+
+	.division{
+		align-items: center;
+		justify-content: space-between;
+	}
+	.linea{
+		height: 60px;
+	}
+	.parteUno{
+		background: red;
+		padding-top: 10%;
+	}
+	.parteDos{
+		background: red;
+		padding-top: 10%;
+	}
+
+
+
+
 }
+
+
 
 /* ? ----- PORTADA CUATRO ----- */
 .portadaCuatro {
