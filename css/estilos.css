@@ -44,7 +44,7 @@ body {
 /* ? ----- PORTADA ----- */
 
 section {
-	background: var(--color-rosaEmpolvado);
+	background: var(--color-blancoMarfil);
 }
 
 .portada {
@@ -59,7 +59,7 @@ section {
 .texto {
 	width: 70%;
 	height: auto;
-	color: #f9f9f9;
+	color: var(--color-verdeSalvia);
 	text-align: center;
 	justify-content: center;
 
@@ -164,7 +164,7 @@ section {
 		flex-direction: column;
 
 		img{
-			width: 52px;
+			width: 65px;
 		}
 	}
 }
@@ -185,7 +185,7 @@ iframe {
 }
 
 .linea {
-	border-left: 3px solid black; 
+	border-left: 2px solid black; 
 	width:1px;
 	height:200px;
 
@@ -200,14 +200,20 @@ iframe {
 	
 
 		h1 {
-			font-size: 30px;
+			font-size: 25px;
+			font-weight: 900;
 			margin: 0 0 20px 0;
+			font-family: Poppins;
 			
 		}
 
 		h3 {
 			font-size: 25px;
 			margin-bottom: 1em;
+		}
+
+		p{
+			font-size: 12px;
 		}
 
 	}
@@ -780,7 +786,7 @@ iframe {
 	align-items: center;
 	background: #f9f9f9;
 	border-radius: 1rem;
-	box-shadow: 0 .5rem 1rem #000;
+	box-shadow: 0 .5rem 1rem #00000038;
 	overflow: hidden;
 	margin: 2rem;
 	margin-bottom: 10%;
@@ -1205,12 +1211,12 @@ h4 {
 		}
 
 		h1 {
-			font-size: 50px;
+			font-size: 45px;
 			margin: 35px 0 10px 0;
 		}
 
 		p {
-			font-size: 20px;
+			font-size: 18px;
 			padding: 0;
 
 
