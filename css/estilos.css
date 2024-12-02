@@ -1,3 +1,12 @@
+:root {
+	--color-verdeSalvia: #9CA98C;
+	--color-blancoMarfil: #FFFFF0;
+	--color-lavandaSuave: #E6E6FA;
+	--color-maderaNatural: #A0522D;
+	--color-rosaEmpolvado: #D8BFD8;
+	--color-amarilloPalido: #FFFACD;
+  }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -19,7 +28,7 @@ body {
 
 	/* font-family: 'Work Sans', sans-serif; */
 	font-family: 'Poppins', sans-serif;
-	background: #5A2F39;
+	background: var(--color-verdeSalvia);
 
 
 
@@ -29,7 +38,7 @@ body {
 
 /* ? ----- PORTADA ----- */
 section {
-	background: #623842;
+	background: var(--color-rosaEmpolvado);
 
 }
 
@@ -78,7 +87,7 @@ section {
 
 	img {
 		width: 100%;
-		max-width: 960px;
+		/* max-width: 960px; */
 		height: auto;
 		padding: 10px;
 		margin: 0 auto 10%;
@@ -1167,10 +1176,11 @@ h4 {
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
-	background: url(../img/fondo/layered-waves-haikei-dos.svg);
-	background-size: 1350px;
-	background-repeat: no-repeat;
-	background-position: center bottom;
+	background: var(--color-verdeSalvia);
+	/* background: url(../img/fondo/layered-waves-haikei-dos.svg); */
+	/* background-size: 1350px; */
+	/* background-repeat: no-repeat; */
+	/* background-position: center bottom; */
 
 
 	h1 {
@@ -1181,7 +1191,7 @@ h4 {
 		font-size: 60px;
 		color: #f9f9f9;
 		/* margin: 45px 0 35px 0; */
-		margin: 60px 0 40px 0;
+		margin: 60px 0 0 0;
 
 	}
 
@@ -1192,7 +1202,7 @@ h4 {
 		font-size: 20px;
 		color: #ffff;
 		text-align: center;
-		padding: 30px;
+		/* padding: 30px; */
 		margin-bottom: 130px;
 
 	}
