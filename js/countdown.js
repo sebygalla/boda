@@ -50,11 +50,11 @@ closeBtnDos.onclick = (e) => {
 // This is an example with default parameters
 
 simplyCountdown('#cuenta', {
-    year: 2024, // required
-    month: 11, // required
-    day: 23, // required
-    hours: 21, // Default is 0 [0-23] integer
-    minutes: 30, // Default is 0 [0-59] integer
+    year: 2025, // required
+    month: 3, // required
+    day: 1, // required
+    hours: 11, // Default is 0 [0-23] integer
+    minutes: 0, // Default is 0 [0-59] integer
     seconds: 0, // Default is 0 [0-59] integer
     words: { //words displayed into the countdown
         days: {

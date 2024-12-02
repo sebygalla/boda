@@ -24,6 +24,11 @@
 	src: url(/tipografia/Poppins-Light.ttf);
 }
 
+@font-face {
+	font-family: 'Dancing';
+	src: url(/tipografia/DancingScript-Bold.ttf);
+}
+
 body {
 
 	/* font-family: 'Work Sans', sans-serif; */
@@ -60,14 +65,14 @@ section {
 
 
 .texto {
-	width: 50%;
+	width: 70%;
 	height: auto;
 	color: #f9f9f9;
 	text-align: center;
 	justify-content: center;
 
 	h1 {
-		font-family: silent;
+		font-family: Dancing;
 		font-weight: 100;
 		font-size: 100px;
 		margin: auto;
@@ -111,8 +116,8 @@ section {
 
 	.texto {
 
-		h1 {
-			font-size: 85px;
+		h1 {	
+			font-size: 35px;
 		}
 
 		/* p {
@@ -259,12 +264,13 @@ iframe {
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
-	background: url(../img/fondo/layered-waves-haikei.svg);
-	background-size: 1350px;
-	background-repeat: no-repeat;
-	background-position: center bottom;
+	background: var(--color-verdeSalvia);
+	/* background: url(../img/fondo/layered-waves-haikei.svg); */
+	/* background-size: 1350px; */
+	/* background-repeat: no-repeat; */
+	/* background-position: center bottom; */
 
-	.logotipo {
+	/* .logotipo {
 		text-align: center;
 		font-weight: 100;
 		font-size: 50px;
@@ -283,7 +289,7 @@ iframe {
 
 	.fa-solid {
 		font-size: 50px;
-	}
+	} */
 
 }
 
@@ -344,7 +350,7 @@ iframe {
 
 	h1 {
 		font-size: 50px;
-		font-family: "silent";
+		font-family: Dancing;
 		font-weight: 100;
 		color: #f9f9f9;
 	}
@@ -1185,7 +1191,7 @@ h4 {
 
 	h1 {
 		text-align: center;
-		font-family: silent;
+		font-family: Dancing;
 		font-weight: 100;
 		/* font-size: 80px; */
 		font-size: 60px;
@@ -1203,7 +1209,7 @@ h4 {
 		color: #ffff;
 		text-align: center;
 		/* padding: 30px; */
-		margin-bottom: 130px;
+		/* margin-bottom: 130px; */
 
 	}
 }
@@ -1219,7 +1225,7 @@ h4 {
 
 		h1 {
 			font-size: 50px;
-			margin: 45px 0 35px 0;
+			margin: 35px 0 10px 0;
 		}
 
 		p {
