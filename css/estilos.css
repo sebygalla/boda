@@ -5,6 +5,8 @@
 	--color-maderaNatural: #A0522D;
 	--color-rosaEmpolvado: #D8BFD8;
 	--color-amarilloPalido: #FFFACD;
+	--color-varianteNegro: #2c2828;
+	--color-varianteGris: rgb(98, 95, 95);
 }
 
 * {
@@ -22,6 +24,11 @@
 @font-face {
 	font-family: 'Poppins';
 	src: url(/tipografia/Poppins-Light.ttf);
+}
+
+@font-face {
+	font-family: 'PoppinsBold';
+	src: url(/tipografia/Poppins-Bold.ttf);
 }
 
 @font-face {
@@ -59,7 +66,7 @@ section {
 .texto {
 	width: 70%;
 	height: auto;
-	color: var(--color-verdeSalvia);
+	color: var(--color-varianteNegro);
 	text-align: center;
 	justify-content: center;
 
@@ -136,35 +143,45 @@ section {
 	justify-content: space-around;
 	margin: 0 auto;
 	overflow: hidden;
+	background: var(--color-verdeSalvia);
 }
 
 .textoTres {
 	width: 100%;
 	height: auto;
-	color: black;
+	margin: 15% auto;
 	text-align: center;
 	padding: 20px;
-
-	
 
 
 	h1 {
 		font-weight: 900;
-		font-size: 50px;
+		font-size: 130px;
+		color: var(--color-blancoMarfil);
+		font-family: Dancing;
 	}
 
 	h3 {
 		font-size: 60px;
+		font-weight: 900;
+		color: var(--color-blancoMarfil);
 	}
 
-	.ceremonia_anillo{
-		display: flex;	
+	p {
+		font-size: 18px;
+		font-weight: 100;
+		color: var(--color-blancoMarfil);
+		margin-bottom: 40px;
+	}
+
+	.ceremonia_anillo {
+		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
 
-		img{
-			width: 65px;
+		img {
+			width: 90px;
 		}
 	}
 }
@@ -176,18 +193,18 @@ iframe {
 
 .division {
 	width: 80%;
-	color: black;
+	color: var(--color-blancoMarfil);
 	margin: 20px auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	
+
 }
 
 .linea {
-	border-left: 2px solid black; 
-	width:1px;
-	height:200px;
+	border-left: 3px solid var(--color-blancoMarfil);
+	width: 1px;
+	height: 150px;
 
 }
 
@@ -195,16 +212,12 @@ iframe {
 
 	.textoTres {
 		width: 100%;
-		margin: auto;
+		margin: 20% auto;
 		padding: 10%;
-	
+
 
 		h1 {
-			font-size: 25px;
-			font-weight: 900;
-			margin: 0 0 20px 0;
-			font-family: Poppins;
-			
+			font-size: 65px;
 		}
 
 		h3 {
@@ -212,8 +225,14 @@ iframe {
 			margin-bottom: 1em;
 		}
 
-		p{
+		p {
 			font-size: 12px;
+		}
+
+		.ceremonia_anillo {
+			img {
+				width: 55px;
+			}
 		}
 
 	}
@@ -222,18 +241,26 @@ iframe {
 		width: 90%;
 	}
 
-	.division{
+	.division {
 		align-items: center;
 		justify-content: space-between;
 	}
-	.linea{
-		height: 60px;
+
+	.linea {
+		height: 50px;
 	}
-	.parteUno{
+
+	.parteUno {
 		padding-top: 10%;
 	}
-	.parteDos{
+
+	.parteDos {
 		padding-top: 10%;
+	}
+
+	.img{	
+		width: 95%;
+		margin-top: 0;
 	}
 
 
@@ -250,8 +277,8 @@ iframe {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: auto;
-	background: var(--color-verdeSalvia);
+	margin: 0 auto;
+	/* background: var(--color-verdeSalvia); */
 	/* background: url(../img/fondo/layered-waves-haikei.svg); */
 	/* background-size: 1350px; */
 	/* background-repeat: no-repeat; */
@@ -292,7 +319,7 @@ iframe {
 	margin: 200px auto;
 	overflow: hidden;
 	padding: 10px;
-	background: #5A2F39;
+	background: var(--color-verdeSalvia);
 
 
 
@@ -707,7 +734,7 @@ iframe {
 	justify-content: center;
 	gap: 10px;
 	z-index: 0;
-	margin: 3em;
+	margin: 5em 0 10em 0;
 }
 
 .simply-section {
@@ -720,7 +747,7 @@ iframe {
 	align-items: center;
 	justify-content: center;
 
-	color: #f9f9f9;
+	color: var(--color-varianteNegro);
 
 	background: rgba(255, 255, 255, 0.16);
 	border-radius: 16px;
@@ -781,7 +808,7 @@ iframe {
 
 .box {
 	height: 6rem;
-	width: 30%;
+	width: 50%;
 	display: flex;
 	align-items: center;
 	background: #f9f9f9;
@@ -1169,7 +1196,7 @@ h4 {
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
-	background: var(--color-verdeSalvia);
+	/* background: var(--color-verdeSalvia); */
 	/* background: url(../img/fondo/layered-waves-haikei-dos.svg); */
 	/* background-size: 1350px; */
 	/* background-repeat: no-repeat; */
@@ -1182,7 +1209,7 @@ h4 {
 		font-weight: 100;
 		/* font-size: 80px; */
 		font-size: 60px;
-		color: #f9f9f9;
+		color: var(--color-varianteNegro);
 		/* margin: 45px 0 35px 0; */
 		margin: 60px 0 0 0;
 
@@ -1192,8 +1219,8 @@ h4 {
 		width: 85%;
 		font-weight: 100;
 		/* font-size: 18px; */
-		font-size: 20px;
-		color: #ffff;
+		font-size: 18px;
+		color: var(--color-varianteGris);
 		text-align: center;
 		/* padding: 30px; */
 		/* margin-bottom: 130px; */
