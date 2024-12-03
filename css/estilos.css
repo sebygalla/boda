@@ -226,7 +226,7 @@ iframe {
 		}
 
 		p {
-			font-size: 12px;
+			font-size: 18px;
 		}
 
 		.ceremonia_anillo {
@@ -313,7 +313,7 @@ iframe {
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 
-	background: var(--color-maderaNatural);
+	background: var(--color-verdeSalvia);
 	border-radius: 10px;
 	width: 30vw;
 	height: auto;
@@ -351,7 +351,7 @@ iframe {
 		padding: 20px 30px;
 		cursor: pointer;
 		font-family: Poppins;
-		color: var(--color-maderaNatural);
+		color: var(--color-verdeSalvia);
 		font-weight: 600;
 		border-radius: 20px;
 		border: none;
@@ -365,8 +365,8 @@ iframe {
 	}
 
 	button:hover {
-		background: #AF7991;
-		color: #f9f9f9;
+		background: var(--color-amarilloPalido);
+		color: var(--color-verdeSalvia);
 		transition: all .4s ease-in-out;
 	}
 
@@ -636,7 +636,7 @@ iframe {
 	justify-content: space-evenly;
 	margin: auto;
 	overflow: hidden;
-	background: #AF7991;
+	background: var(--color-maderaNatural);
 
 	z-index: 99;
 
@@ -860,6 +860,8 @@ iframe {
 	margin: auto;
 	margin-bottom: 2em;
 
+
+
 }
 
 .slider {
@@ -880,6 +882,45 @@ iframe {
 	height: 100%;
 	/* aspect-ratio: 16 / 9; */
 }
+
+
+
+/*GALERIA DE FOTO*/
+
+.galeria {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	/* grid-template-rows: 250px; */
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 8px;
+	padding: 20px;
+	}
+
+	.boxe img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.boxe:nth-child(1){
+		grid-column-start: span 2 ;
+	}
+	.boxe:nth-child(2){
+		grid-column-start: span 2 ;
+	}
+	.boxe:nth-child(3){
+		grid-column-start: span 4 ;
+	}
+	.boxe:nth-child(4){
+		grid-column-start: span 2 ;
+	}
+	.boxe:nth-child(5){
+		grid-column-start: span 2 ;
+	}
+
+/* FIN DE GALERIA DE FOTOS */
 
 
 
@@ -1196,7 +1237,7 @@ h4 {
 	}
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
 
 	.portadaOcho {
 		.portadaOcho {
