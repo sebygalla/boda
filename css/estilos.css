@@ -51,7 +51,7 @@ body {
 /* ? ----- PORTADA ----- */
 
 section {
-	background: var(--color-blancoMarfil);
+	background: var(--color-lavandaSuave);
 }
 
 .portada {
@@ -217,7 +217,7 @@ iframe {
 
 
 		h1 {
-			font-size: 65px;
+			font-size: 80px;
 		}
 
 		h3 {
@@ -1247,7 +1247,7 @@ h4 {
 		}
 
 		h1 {
-			font-size: 45px;
+			font-size: 50px;
 			margin: 35px 0 10px 0;
 		}
 
