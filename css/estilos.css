@@ -144,6 +144,7 @@ section {
 	margin: 0 auto;
 	overflow: hidden;
 	background: var(--color-verdeSalvia);
+	position: relative;
 }
 
 .textoTres {
@@ -184,6 +185,12 @@ section {
 			width: 90px;
 		}
 	}
+}
+
+.adornoDos{
+	width: 250px;
+	position: absolute;
+	top: 100px;
 }
 
 iframe {
@@ -236,6 +243,13 @@ iframe {
 		}
 
 	}
+
+	
+.adornoDos{
+	width: 150px;
+	position: absolute;
+	top: 60px;
+}
 
 	iframe {
 		width: 90%;
@@ -1210,6 +1224,7 @@ h4 {
 	/* background-size: 1350px; */
 	/* background-repeat: no-repeat; */
 	/* background-position: center bottom; */
+	position: relative;
 
 
 	h1 {
@@ -1220,7 +1235,7 @@ h4 {
 		font-size: 60px;
 		color: var(--color-varianteNegro);
 		/* margin: 45px 0 35px 0; */
-		margin: 60px 0 0 0;
+		margin: 100px 0 0 0;
 
 	}
 
@@ -1235,6 +1250,14 @@ h4 {
 		/* margin-bottom: 130px; */
 
 	}
+
+	
+}
+
+.adorno{
+	width: 150px;
+	position: absolute;
+	top: 0;
 }
 
 @media (max-width:900px) {
@@ -1248,7 +1271,7 @@ h4 {
 
 		h1 {
 			font-size: 50px;
-			margin: 35px 0 10px 0;
+			margin: 65px 0 10px 0;
 		}
 
 		p {
@@ -1258,6 +1281,11 @@ h4 {
 
 		}
 
+	}
+	.adorno{
+		width: 120px;
+		position: absolute;
+		top: 0;
 	}
 }
 
