@@ -102,12 +102,28 @@ section {
 	}
 }
 
-.adornoPortada {
+.adornoPortadaIzquierda {
 	position: absolute;
-	left: 35%;
+	left: 0;
 	top: 0;
-
+	width: 90px;
 }
+
+.adornoPortadaDerecha {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 90px;
+
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	-ms-filter: "FlipH";
+	filter: FlipH;
+}
+
+
 
 
 
@@ -136,7 +152,7 @@ section {
 
 	.adornoPortada {
 		width: 120px;
-	
+
 	}
 
 
@@ -271,9 +287,9 @@ iframe {
 
 
 	.adornoDos {
-		width: 150px;
+		width: 120px;
 		position: absolute;
-		top: 60px;
+		top: 0;
 	}
 
 	iframe {
@@ -1314,7 +1330,7 @@ h4 {
 	}
 
 	.adorno {
-		width: 120px;
+		width: 280px;
 		position: absolute;
 		top: 0;
 	}
