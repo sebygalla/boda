@@ -214,9 +214,9 @@ section {
 		font-weight: 100;
 		color: var(--color-varianteNegro);
 		margin-bottom: 40px;
-	}
+		position: relative;}
 
-	.ceremonia_anillo {
+	/* .ceremonia_anillo {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -225,7 +225,7 @@ section {
 		img {
 			width: 90px;
 		}
-	}
+	} */
 }
 
 .adornoDos {
@@ -233,6 +233,8 @@ section {
 	position: absolute;
 	top: 100px;
 }
+
+
 
 iframe {
 	z-index: 1;
@@ -260,12 +262,12 @@ iframe {
 
 	.textoTres {
 		width: 100%;
-		margin: 20% auto;
+		margin: auto;
 		padding: 10%;
 
 
 		h1 {
-			font-size: 60px;
+			font-size: 50px;
 		}
 
 		h3 {
@@ -286,11 +288,28 @@ iframe {
 	}
 
 
-	.adornoDos {
-		width: 80px;
+	.adornoDosDerecha {
 		position: absolute;
-		top: 20px;
+		right: 5%;
+		top: 0;
+		width: 90px;
+	
+		-moz-transform: scaleX(-1);
+		-o-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+		-ms-filter: "FlipH";
+		filter: FlipH;
 	}
+
+	.adornoDosIzquierda {
+		position: absolute;
+		left: 5%;
+		top: 0;
+		width: 90px;
+	}
+
+
 
 	iframe {
 		width: 90%;
@@ -1286,7 +1305,7 @@ h4 {
 	}
 
 	p {
-		width: 85%;
+		width: 90%;
 		font-weight: 100;
 		/* font-size: 18px; */
 		font-size: 18px;
@@ -1321,7 +1340,7 @@ h4 {
 		}
 
 		p {
-			font-size: 18px;
+			font-size: 14px;
 			padding: 0;
 
 
