@@ -7,6 +7,7 @@
 	--color-amarilloPalido: #FFFACD;
 	--color-varianteNegro: #2c2828;
 	--color-varianteGris: rgb(98, 95, 95);
+	--color--varianteMarron: #664626;
 }
 
 * {
@@ -248,15 +249,37 @@ section {
 
 
 
-iframe {
+.iframe {
 	z-index: 1;
+	border-radius: 20px;
+
 
 }
 
-.adornoFrame {
-	width: 100px;
+.adornoFrame{
+	width: 90%;
+	position: relative;
+}
+
+.adornoFrame_izquierda {
+	width: 80px;
 	position: absolute;
+	left: 0;
 	bottom: 0;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	-ms-filter: "FlipH";
+	filter: FlipH;
+}
+
+.adornoFrame_derecha {
+	width: 80px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	
 }
 
 .division {
