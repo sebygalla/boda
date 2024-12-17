@@ -161,12 +161,24 @@ section {
 /* ? ----- PORTADA DOS ----- */
 
 .portadaDos {
-	width: 100%;
+	width: 60%;
 	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: auto;
+	margin: 2em auto;
+}
+
+@media (max-width:900px) {
+
+	.portadaDos {
+		width: 90%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 3em auto 0;
+	}
 }
 
 
@@ -213,7 +225,8 @@ section {
 		font-weight: 100;
 		color: var(--color-varianteNegro);
 		margin-bottom: 40px;
-		position: relative;}
+		position: relative;
+	}
 
 	/* .ceremonia_anillo {
 		display: flex;
@@ -240,6 +253,12 @@ iframe {
 
 }
 
+.adornoFrame {
+	width: 100px;
+	position: absolute;
+	bottom: 0;
+}
+
 .division {
 	width: 80%;
 	color: var(--color-varianteNegro);
@@ -262,7 +281,7 @@ iframe {
 	.textoTres {
 		width: 100%;
 		margin: auto;
-		
+
 
 
 		h1 {
@@ -293,7 +312,7 @@ iframe {
 		right: 5%;
 		top: 0;
 		width: 90px;
-	
+
 		-moz-transform: scaleX(-1);
 		-o-transform: scaleX(-1);
 		-webkit-transform: scaleX(-1);
@@ -334,7 +353,7 @@ iframe {
 
 	.img {
 		width: 100%;
-		margin: auto;	
+		margin: auto;
 	}
 
 
