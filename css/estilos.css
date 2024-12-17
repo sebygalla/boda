@@ -251,13 +251,14 @@ section {
 
 .iframe {
 	z-index: 1;
-	border-radius: 20px;
+	border-radius: 10px;
 
 
 }
 
 .adornoFrame{
 	width: 90%;
+	height: 120px;
 	position: relative;
 }
 
@@ -321,10 +322,10 @@ section {
 			font-size: 14px;
 		}
 
-		.ceremonia_anillo {
-			img {
-				width: 55px;
-			}
+
+		img{
+			width: 100%;
+			border-radius: 10px;
 		}
 
 	}
