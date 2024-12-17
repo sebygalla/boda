@@ -265,16 +265,16 @@ iframe {
 
 
 		h1 {
-			font-size: 80px;
+			font-size: 60px;
 		}
 
 		h3 {
-			font-size: 25px;
+			font-size: 20px;
 			margin-bottom: 1em;
 		}
 
 		p {
-			font-size: 18px;
+			font-size: 14px;
 		}
 
 		.ceremonia_anillo {
@@ -287,9 +287,9 @@ iframe {
 
 
 	.adornoDos {
-		width: 120px;
+		width: 80px;
 		position: absolute;
-		top: 0;
+		top: 20px;
 	}
 
 	iframe {
@@ -1330,7 +1330,7 @@ h4 {
 	}
 
 	.adorno {
-		width: 280px;
+		width: 200px;
 		position: absolute;
 		top: 0;
 	}
