@@ -431,9 +431,9 @@ section {
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 
-	background: var(--color-lavandaSuave);
+	background: var(--color--varianteMarron);
 	border-radius: 10px;
-	width: 30vw;
+	width: 500px;
 	height: auto;
 	padding: 45px;
 
@@ -448,28 +448,30 @@ section {
 		font-size: 50px;
 		font-family: Dancing;
 		font-weight: 100;
-		color: var(--color-varianteGris);
+		color: var(--color-blancoMarfil);
 	}
 
 	i {
 		font-size: 60px;
-		color: var(--color-varianteGris);
+		color: var(--color-blancoMarfil);
 		margin: 5px;
+		
 	}
+
 
 	p {
 		font-size: 14px;
 		margin: 10px;
-		color: var(--color-varianteGris);
+		color: var(--color-blancoMarfil);
 	}
 
 	button {
-		font-size: 20px;
+		font-size: 16px;
 		list-style: none;
 		padding: 20px 30px;
 		cursor: pointer;
 		font-family: Poppins;
-		color: var(--color-varianteGris);
+		color: var(--color--varianteMarron);
 		font-weight: 600;
 		border-radius: 20px;
 		border: none;
@@ -483,9 +485,10 @@ section {
 	}
 
 	button:hover {
-		background: var(--color-amarilloPalido);
-		color: var(--color-verdeSalvia);
-		transition: all .4s ease-in-out;
+		background: var(--color-maderaNatural);
+		color: var(--color-blancoMarfil);
+		transition: all .5s ease-in-out;
+	
 	}
 
 
@@ -550,7 +553,7 @@ section {
 
 	.popup-box {
 		color: #f9f9f9;
-		background: #AF7991;
+		background: var(--color--varianteMarron);
 		width: 50%;
 		padding: 2em;
 		position: relative;
@@ -596,7 +599,7 @@ section {
 			width: 30px;
 			height: 30px;
 			text-align: center;
-			background: #623842;
+		
 			border-radius: 50%;
 		}
 
@@ -633,7 +636,7 @@ section {
 
 	.popup-box-dos {
 		color: #f9f9f9;
-		background: #AF7991;
+		background: var(--color--varianteMarron);
 		width: 50%;
 		padding: 2em;
 		position: relative;
@@ -676,7 +679,7 @@ section {
 			width: 30px;
 			height: 30px;
 			text-align: center;
-			background: #623842;
+		
 			border-radius: 50%;
 		}
 
