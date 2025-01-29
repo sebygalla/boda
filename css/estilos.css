@@ -8,6 +8,8 @@
 	--color-varianteNegro: #2c2828;
 	--color-varianteGris: rgb(98, 95, 95);
 	--color--varianteMarron: #664626;
+
+	--color--varianteBoton: #5E7C72;
 }
 
 * {
@@ -53,6 +55,7 @@ body {
 
 section {
 	background: var(--color-blancoMarfil);
+	overflow: hidden;
 }
 
 .portada {
@@ -432,7 +435,7 @@ section {
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
 
-	background: var(--color--varianteMarron);
+	background: var(--color--varianteBoton);
 	border-radius: 10px;
 	width: 500px;
 	height: auto;
@@ -472,7 +475,7 @@ section {
 		padding: 20px 30px;
 		cursor: pointer;
 		font-family: Poppins;
-		color: var(--color--varianteMarron);
+		color: var(--color--varianteBoton);
 		font-weight: 600;
 		border-radius: 20px;
 		border: none;
@@ -758,7 +761,7 @@ section {
 	justify-content: space-evenly;
 	margin: auto;
 	overflow: hidden;
-	background: var(--color-maderaNatural);
+	background: var(--color--varianteBoton);
 
 	z-index: 99;
 

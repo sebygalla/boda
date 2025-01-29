@@ -1,0 +1,194 @@
+:root {
+	--color-verdeSalvia: #9CA98C;
+	--color-blancoMarfil: #FFFF;
+	--color-lavandaSuave: #E6E6FA;
+	--color-maderaNatural: #A0522D;
+	--color-rosaEmpolvado: #D8BFD8;
+	--color-amarilloPalido: #FFFACD;
+	--color-varianteNegro: #2c2828;
+	--color-varianteGris: rgb(98, 95, 95);
+	--color--varianteMarron: #664626;
+
+	--color--varianteBoton: #5E7C72;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'silent';
+	src: url(/tipografia/Silent\ Landfield.ttf);
+
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url(/tipografia/Poppins-Light.ttf);
+}
+
+@font-face {
+	font-family: 'PoppinsBold';
+	src: url(/tipografia/Poppins-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Dancing';
+	src: url(/tipografia/DancingScript-Bold.ttf);
+}
+
+body {
+
+	/* font-family: 'Work Sans', sans-serif; */
+	font-family: 'Poppins', sans-serif;
+	background: var(--color-blancoMarfil);
+
+
+
+}
+
+
+
+/* ? ----- PORTADA ----- */
+
+section {
+	overflow: hidden;
+}
+
+.portada {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 10px;
+	gap: 10px;
+
+}
+
+.texto {
+	width: 100%;
+	height: 100vh;
+	height: auto;
+	background: var(--color-blancoMarfil);
+	color: var(--color-varianteNegro);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+
+	h1 {
+		font-family: Dancing;
+		font-weight: 100;
+		font-size: 120px;
+		margin: auto;
+		text-align: center;
+	}
+
+	p {
+		font-size: 20px;
+		letter-spacing: 4px;
+	}
+}
+
+
+.adornoPortadaIzquierda {
+	position: absolute;
+	left: -4em;
+	bottom: -10em;
+	width: 320px;
+	z-index: 0;
+
+}
+
+.adornoPortadaDerecha {
+	position: absolute;
+	right: -5em;
+	top: -9em;
+	width: 320px;
+
+
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	-ms-filter: "FlipH";
+	filter: FlipH;
+}
+
+.btn{
+	margin: 2em;
+	padding: 10px 20px;
+	border-radius: 8px;
+	background: var(--color--varianteBoton);
+
+	border: none;
+
+	cursor: pointer;
+
+	a{
+		color: var(--color-blancoMarfil);
+		font-size: 16px;
+		text-decoration: none;
+		letter-spacing: 2px;
+	}
+}
+
+.btn:hover{
+	
+	background: var(--color--varianteMarron);
+	color: var(--color-blancoMarfil);
+
+
+}
+
+
+
+
+
+
+@media (max-width:900px) {
+
+	.portada {
+		flex-direction: column;
+	}
+
+	.texto {
+		padding: 38px;
+		margin-top: 35px;
+
+		h1 {
+			font-size: 50px;
+		}
+
+		p {
+			font-size: 12px;
+			letter-spacing: 4px;
+		}
+	}
+
+	.adornoPortadaIzquierda {
+
+		left: -5em;
+		bottom: -9em;
+		width: 220px;
+
+
+	}
+
+	.adornoPortadaDerecha {
+
+		right: -5em;
+		top: -9em;
+		width: 220px;
+
+	}
+
+
+
+
+
+}
