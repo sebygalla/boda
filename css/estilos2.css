@@ -267,10 +267,10 @@ section {
 }
 
 .adornoFrame_izquierda {
-	width: 80px;
+	width: 200px;
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	left: -50px;
+	bottom: -50px;
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
@@ -280,10 +280,10 @@ section {
 }
 
 .adornoFrame_derecha {
-	width: 80px;
+	width: 200px;
 	position: absolute;
-	right: 0;
-	bottom: 0;
+	right: -50px;
+	bottom: -50px;
 	
 }
 
@@ -314,7 +314,7 @@ section {
 
 		h1 {
 			font-size: 55px;
-			margin-top: 20px;
+			margin-top: 90px;
 		}
 
 		h3 {
@@ -337,9 +337,9 @@ section {
 
 	.adornoDosDerecha {
 		position: absolute;
-		right: 5%;
-		top: 0;
-		width: 90px;
+		right: -90px;
+		top: -50px;
+		width: 250px;
 
 		-moz-transform: scaleX(-1);
 		-o-transform: scaleX(-1);
@@ -351,9 +351,9 @@ section {
 
 	.adornoDosIzquierda {
 		position: absolute;
-		left: 5%;
-		top: 0;
-		width: 90px;
+		left: -90px;
+		top: -50px;
+		width: 250px;
 	}
 
 
