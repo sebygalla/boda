@@ -215,6 +215,7 @@ section {
 	margin: 15% auto;
 	text-align: center;
 	padding: 20px;
+	overflow: hidden;
 
 
 
@@ -259,15 +260,15 @@ section {
 
 .adornoFrame{
 	width: 100px;
-	height: 120px;
+	height: 0;
 	position: relative;
 }
 
 .adornoFrame_izquierda {
-	width:1200px;
+	width:500px;
 	position: absolute;
 	left: -50px;
-	bottom: -50px;
+	bottom: -100px;
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
@@ -279,10 +280,10 @@ section {
 }
 
 .adornoFrame_derecha {
-	width: 1111px;
+	width: 500px;
 	position: absolute;
 	right: -50px;
-	bottom: -50px;
+	bottom: 300px;
 	opacity: 0.4;
 
 	z-index: 0;
