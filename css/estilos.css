@@ -63,10 +63,6 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 0 auto;
-	padding: 10px;
-	gap: 10px;
-
 }
 
 .texto {
@@ -83,13 +79,12 @@ section {
 	h1 {
 		font-family: Dancing;
 		font-weight: 100;
-		font-size: 120px;
-		margin: auto;
+		font-size: 100px;
 		text-align: center;
 	}
 
 	p {
-		font-size: 20px;
+		font-size: 22px;
 		letter-spacing: 4px;
 	}
 }
@@ -99,7 +94,7 @@ section {
 	position: absolute;
 	left: -4em;
 	bottom: -10em;
-	width: 320px;
+	width: 350px;
 	z-index: 0;
 
 }
@@ -108,8 +103,7 @@ section {
 	position: absolute;
 	right: -5em;
 	top: -9em;
-	width: 320px;
-
+	width: 350px;
 
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
@@ -122,18 +116,16 @@ section {
 .btn{
 	margin: 2em;
 	padding: 10px 20px;
-	border-radius: 8px;
+	border-radius: 20px;
 	background: var(--color--varianteBoton);
-
 	border: none;
-
 	cursor: pointer;
 
 	a{
 		color: var(--color-blancoMarfil);
 		font-size: 16px;
 		text-decoration: none;
-		letter-spacing: 2px;
+		letter-spacing: 4px;
 	}
 }
 
@@ -141,13 +133,7 @@ section {
 	
 	background: var(--color--varianteMarron);
 	color: var(--color-blancoMarfil);
-
-
 }
-
-
-
-
 
 
 @media (max-width:900px) {
@@ -171,12 +157,9 @@ section {
 	}
 
 	.adornoPortadaIzquierda {
-
 		left: -5em;
 		bottom: -9em;
 		width: 250px;
-
-
 	}
 
 	.adornoPortadaDerecha {
@@ -184,11 +167,6 @@ section {
 		right: -5em;
 		top: -12em;
 		width: 260px;
-
 	}
-
-
-
-
 
 }
